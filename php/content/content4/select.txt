@@ -1,0 +1,6 @@
+<select name="district" class="form-control">
+<option value="West Godavari">I BTECH</option>
+   <option value="East Godavari">II BTECH</option>
+    <option value="Anantapur">III BTECH</option>
+    <option value="Chittoor">IV BTECH</option>
+</select>
