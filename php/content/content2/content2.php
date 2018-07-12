@@ -9,6 +9,8 @@ else{
     }
 }
 ?>
+
+<script src="php/content/content2/validation.js?v=1.0"></script>
        
 <div id="main-wrapper">
 

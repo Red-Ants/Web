@@ -52,12 +52,6 @@
 
     </script>";
 
-    echo "<script>
-
-    window.top.location='index.php';
-
- </script>";
-
          die();
 
     }
