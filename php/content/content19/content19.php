@@ -1,95 +1,24 @@
-<!--<?php
+<?php
     session_start();
 
-    if(!isset($_SESSION['logged'])){
-        echo "<script>window.top.location='index.php'</script>"
-    }
-    else{
-        if(($_SESSION['logged'])==false){
-            echo "<script>window.top.location='index.php'</script>"
-        }
-    }
-?>-->
-
-<html>
-    <head>
-        <title>
-            REDANTS 
-        </title>
-          <meta name="viewport" content="width=device-width, initial-scale=1">
-<!--===============================================================================================-->  
-  <link rel="icon" type="log/image/png" href="images/icons/favicon.ico"/>
-<!--===============================================================================================-->
-  <link rel="stylesheet" type="text/css" href="log/vendor/bootstrap/css/bootstrap.min.css">
-<!--===============================================================================================-->
-  <link rel="stylesheet" type="text/css" href="log/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
-<!--===============================================================================================-->
-  <link rel="stylesheet" type="text/css" href="log/fonts/iconic/css/material-design-iconic-font.min.css">
-<!--===============================================================================================-->
-  <link rel="stylesheet" type="text/css" href="log/vendor/animate/animate.css">
-<!--===============================================================================================-->  
-  <link rel="stylesheet" type="text/css" href="log/vendor/css-hamburgers/hamburgers.min.css">
-<!--===============================================================================================-->
-  <link rel="stylesheet" type="text/css" href="log/vendor/animsition/css/animsition.min.css">
-<!--===============================================================================================-->
-  <link rel="stylesheet" type="text/css" href="log/vendor/select2/select2.min.css">
-<!--===============================================================================================-->  
-  <link rel="stylesheet" type="text/css" href="log/vendor/daterangepicker/daterangepicker.css">
-<!--===============================================================================================-->
-  <link rel="stylesheet" type="text/css" href="log/css/util.css">
-  <link rel="stylesheet" type="text/css" href="log/css/main.css">
-    <!-- Bootstrap CSS-->
-    <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
-    <!-- Font Awesome CSS-->
-
-    <!-- Custom Font Icons CSS-->
-    <link rel="stylesheet" href="css/landy-iconfont.css">
-    <!-- Google fonts - Open Sans-->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,800">
-    <!-- owl carousel-->
-    <link rel="stylesheet" href="vendor/owl.carousel/assets/owl.carousel.css">
-    <link rel="stylesheet" href="vendor/owl.carousel/assets/owl.theme.default.css">
-    <!-- theme stylesheet-->
-    <link rel="stylesheet" href="css/style.default.css" id="theme-stylesheet">
-    <!-- Custom stylesheet - for your changes-->
-  
-    <!-- Favicon-->
-    <link rel="shortcut icon" href="favicon.png">
-    <!-- Tweaks for older IEs--><!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
-        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
-           <!-- Stylesheets -->
-
-  <link rel="stylesheet" href="css/set1.css">
-
-         <script
-  src="https://code.jquery.com/jquery-3.3.1.min.js"
-  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-  crossorigin="anonymous"></script>
-
-
-<style>
-body {
-  
-    background-color: black;
-  background-repeat: no-repeat;
-  background-size: 750px 420px;
-  background-position: left;
- }
-</style>
-
-    </head>
-    <body>
-  
+    // if(!isset($_SESSION['logged'])){
+    //     echo "<script>window.top.location='index.php'</script>";
+    // }
+    // else{
+    //     if(($_SESSION['logged'])==false){
+    //         echo "<script>window.top.location='index.php'</script>";
+    //     }
+    // }
+?> 
         
-       
+  <script src="php/content/content19/validation.js?v=1.2"></script>   
 <div id="main-wrapper">
 
           
   <div class="container-fluid">
         <div class="row">
-         <div class="image col-lg-6 order-1 order-lg-2" style="top: 100"><img src="img/ralogo.png" alt="..." class="img-fluid">
+         <div class="image col-lg-6 order-1 order-lg-2" style="top: 100">
+           <img src="img/ralogo.png" alt="..." class="img-fluid">
 <br><br><br><br><br>         </div>
 
             <div class="text col-lg-5 order-2 order-lg-2">
@@ -102,25 +31,6 @@ body {
 /*//////////////////////////////////////////////////////////////////
 [ FONT ]*/
 
-@font-face {
-  font-family: Poppins-Regular;
-  src: url('../fonts/poppins/Poppins-Regular.ttf'); 
-}
-
-@font-face {
-  font-family: Poppins-Medium;
-  src: url('../fonts/poppins/Poppins-Medium.ttf'); 
-}
-
-@font-face {
-  font-family: Poppins-Bold;
-  src: url('../fonts/poppins/Poppins-Bold.ttf'); 
-}
-
-@font-face {
-  font-family: Poppins-SemiBold;
-  src: url('../fonts/poppins/Poppins-SemiBold.ttf'); 
-}
 
 
 
@@ -238,14 +148,13 @@ iframe {
 /*//////////////////////////////////////////////////////////////////
 [ Utility ]*/
 .txt1 {
-  font-family: Poppins-Regular;
+
   font-size: 13px;
   color: #666666;
   line-height: 1.5;
 }
 
-.txt2 {
-  font-family: Poppins-Regular;
+
   font-size: 13px;
   color: #333333;
   line-height: 1.5;
@@ -582,81 +491,54 @@ iframe {
 
 
 </style>
+<script>
+        
+    
+    </script>
 
 <br>
 <br>      
-     <div style="right: px" >    <h3 style="color: white"> <strong style="color: red">LOG</strong>IN</h3></div>
+     <div style="right: px" >    <h3 style="color: white"> <strong style="color: red">CHANGE</strong>PASSWORD</h3></div>
 <br>
-	<form class="login100-form validate-form" method="get" action="login.php">
-        
+	<form class="login100-form validate-form" onsubmit="return check()" name="chngpwd">
+         
+          
 
-          <div class="wrap-input100 validate-input">
-            <input class="input100" type="text" name="Username">
-            <span class="focus-input100" data-placeholder="USERNAME*"></span>
+         <div class="wrap-input100 validate-input" data-validate="Enter password">
+            <span class="btn-show-pass">
+              <i class="zmdi zmdi-eye"></i>
+            </span>
+            <input class="input100" type="password" name="old_pwd">
+            <span class="focus-input100" data-placeholder="OLD PASSWORD*"></span>
           </div>
 
           <div class="wrap-input100 validate-input" data-validate="Enter password">
             <span class="btn-show-pass">
               <i class="zmdi zmdi-eye"></i>
             </span>
-            <input class="input100" type="password" name="pass">
-            <span class="focus-input100" data-placeholder="Password*"></span>
+            <input class="input100" type="password" name="new_pwd">
+            <span class="focus-input100" data-placeholder="NEW PASSWORD*"></span>
+          </div>
+            <div class="wrap-input100 validate-input" data-validate="Enter password">
+            <span class="btn-show-pass">
+              <i class="zmdi zmdi-eye"></i>
+            </span>
+            <input class="input100" type="password" name="retype_new_pwd">
+            <span class="focus-input100" data-placeholder="CONFIRM PASSWORD*"></span>
           </div>
 
-          <div class="container-login100-form-btn">
+         <div class="container-login100-form-btn">
           <div class="cta">
-          <button class="btn btn-primary pull-left" onclick="reg()" style="background-color:#ff5500;" type="submit">
-       LOGIN
+          <button class="btn btn-primary pull-left" style="background-color:#ff5500;" type="submit">
+      COMMIT
           </button>
           </div>
-          &nbsp; <br><br>
 
+           
      
         </form>
 
-
+  
         </div>
-          <div>
-          <div class="container-login100-form-btn " >
-        <a href="regform.php" style="align-content: center;">  <button class="btn btn-primary pull-left"  style="background-color:#ff5500;" type="REGISTER">
-       REGISTER NOW
-          </button></a>
-          </div>
-  </div>
         </div>
-        <!-- Javascript files-->
-        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"> </script>
-        <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
-        <script src="vendor/jquery.cookie/jquery.cookie.js"> </script>
-        <script src="vendor/owl.carousel/owl.carousel.min.js"></script>
-        <script src="js/front.js"></script>
-        <!--===============================================================================================-->
-  <script src="log/vendor/jquery/jquery-3.2.1.min.js"></script>
-<!--===============================================================================================-->
-  <script src="log/vendor/animsition/js/animsition.min.js"></script>
-<!--===============================================================================================-->
-  <script src="log/vendor/bootstrap/js/popper.js"></script>
-  <script src="log/vendor/bootstrap/js/bootstrap.min.js"></script>
-<!--===============================================================================================-->
-  <script src="log/vendor/select2/select2.min.js"></script>
-<!--===============================================================================================-->
-  <script src="log/vendor/daterangepicker/moment.min.js"></script>
-  <script src="log/vendor/daterangepicker/daterangepicker.js"></script>
-<!--===============================================================================================-->
-  <script src="log/vendor/countdowntime/countdowntime.js"></script>
-<!--===============================================================================================-->
-  <script src="log/js/main.js"></script>
-        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID.-->
-        <!---->
-        <script>
-          (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-          function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-          e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-          e.src='//www.google-analytics.com/analytics.js';
-          r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-          ga('create','UA-XXXXX-X');ga('send','pageview');
-        </script>
-        
-    </body>
-</html>
+      

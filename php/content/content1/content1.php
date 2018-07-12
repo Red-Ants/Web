@@ -36,29 +36,8 @@
                   background-position: left;
                  }
                 </style>
-  </head>
-  <body>
-    <!-- navbar-->
-    <header class="header" >
-      <nav class="navbar navbar-expand-lg fixed-top"style="background-color: red" >
-        <a href="index.html" class="navbar-brand" >  <span class="white redantFont ">RED</span> <span class="black redantFont" style="color: white">ANTS</span></a>
-        <button type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler navbar-toggler-right"><span></span><span></span><span></span></button>
-        <div id="navbarSupportedContent" class="collapse navbar-collapse">
-          <ul class="navbar-nav ml-auto align-items-start align-items-lg-center">
-              <li class="nav-item"><a href="home.html" class="nav-link link-scroll">Home</a></li>
-              <li class="nav-item"><a href="profile.html" class="nav-link link-scroll">Profile</a></li>
-              <li class="nav-item"><a href="clubs.html" class="nav-link link-scroll">Clubs</a></li>
-        
-            <li class="nav-item"><a href="changepwd.html" class="nav-link link-scroll">Change Password</a></li>
-            <li class="nav-item"><a href="feedback.html" class="nav-link link-scroll">Feedback</a></li>
-            <li class="nav-item"><a href="index.html" class="nav-link">Signout</a></li>
-        
-          </ul>
-       
-        </div>
-      </nav>
-    </header>
-    <!-- Modal-->
+  
+    
 
    
     <section id="about-us" class="about-us bg-gray">
@@ -82,31 +61,31 @@
            
            <h3 style="color: red ;">Personal <span style="color: #fff">info</span></h3>
             
-            <form class="form-horizontal" method="get" action="database.php" role="form">
+            <form class="form-horizontal" onsubmit>
               <div class="form-group ">
                 <label class="col-lg-3 control-label">NAME:</label>
                 <div class="col-lg-5">
-                  <input class="form-control" type="text" value="ethish">
+                  <input class="form-control" name='name' value="">
                 </div>
               </div>
             
               <div class="form-group">
-                <label class="col-lg-3 control-label">HALLTICKET NO:</label>
+                <label class="col-lg-3 control-label">HALLTICKET_NO:</label>
                 <div class="col-lg-5">
-                  <input class="form-control" type="text" value="17K65A0501">
+                  <input class="form-control" name='htno' value="">
                 </div>
               </div>
               <div class="form-group">
-                <label class="col-lg-3 control-label">EMAIL:</label>
+                <label class="col-lg-3 control-label">EMAIL_ID:</label>
                 <div class="col-lg-5">
-                  <input class="form-control" type="text" value="esh@gmail.com">
+                  <input class="form-control" name='mail_id' value="">
                 </div>
               </div>
      
               <div class="form-group">
                 <label class="col-md-3 control-label">PHONE NO:</label>
                 <div class="col-md-5">
-                  <input class="form-control" type="phone" value="">
+                  <input class="form-control" name='phone_no' value="">
                 </div>
               </div>
               <div class="form-group">
@@ -209,7 +188,7 @@
                 <div class="col-md-8">
                  <div class="cta">
           <a class="btn btn-primary pull-left" href=" #database.php" style="background-color: #ff5500;" >
-            submit</a>
+           submit</a>
           </button>
 
           
@@ -229,9 +208,7 @@
     
       
         
-          <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-      <!-- Custom Theme JavaScript -->
-      <script src='google-sheet.js'></script>
+
         </div>
       </div>
     
@@ -246,22 +223,4 @@
       <div class="d-flex align-items-center justify-content-end"><i class="fa fa-long-arrow-up"></i>To Top</div>
     </div>
 
-    <!-- Javascript files-->
-    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"> </script>
-    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
-    <script src="vendor/jquery.cookie/jquery.cookie.js"> </script>
-    <script src="vendor/owl.carousel/owl.carousel.min.js"></script>
-    <script src="js/front.js"></script>
-    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID.-->
-    <!---->
-    <script>
-      (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-      function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-      e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-      e.src='//www.google-analytics.com/analytics.js';
-      r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-      ga('create','UA-XXXXX-X');ga('send','pageview');
-    </script>
-  </body>
-</html>
+    

@@ -37,6 +37,8 @@
                   background-position: left;
                  }
                 </style>
+   <script src="js/jquery-3.3.1.min.js"></script>
+   <script src="js/clicks.js"></script>
   </head>
   <body>
     <!-- navbar-->
@@ -45,14 +47,12 @@
         <a href="index.html" class="navbar-brand" >  <span class="white redantFont ">RED</span> <span class="black redantFont" style="color: white">ANTS</span></a>
         <button type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler navbar-toggler-right"><span></span><span></span><span></span></button>
         <div id="navbarSupportedContent" class="collapse navbar-collapse">
-          <ul class="navbar-nav ml-auto align-items-start align-items-lg-center">
-              <li class="nav-item"><a href="home.html" class="nav-link link-scroll">Home</a></li>
-              <li class="nav-item"><a href="profile.html" class="nav-link link-scroll">Profile</a></li>
-              <li class="nav-item"><a href="clubs.html" class="nav-link link-scroll">Clubs</a></li>
-          
-            <li class="nav-item"><a href="changepwd.html" class="nav-link link-scroll">Change Password</a></li>
-            <li class="nav-item"><a href="feedback.html" class="nav-link link-scroll">Feedback</a></li>
-            <li class="nav-item"><a href="index.html" class="nav-link">Signout</a></li>
+          <ul id="nav" class="navbar-nav ml-auto align-items-start align-items-lg-center">
+<script>
+$(function(){
+	$('#nav').load('php/nav.php')
+		});
+</script>
         
           </ul>
        
@@ -61,9 +61,15 @@
     </header>
     <!-- Modal-->
 
+    <div id="temp"></div>
+
+    <div id="content">
+      <img src="img/banner.jpg" style="width: 100% height: auto;" style= alt="..." class="img-fluid">
+    </div>
+
    
        
-        <img src="img/banner.jpg" style="width: 100% height: auto;" style= alt="..." class="img-fluid">
+        
 
 
 
@@ -72,64 +78,14 @@
  <footer class="main-footer">
       <div class="container">
         <div class="row">
-         <!-- <div class="col-lg-3 col-md-6"><a href="#" class="brand">SASI EDUCATIONAL INSTITUTIONS</a>
-            <ul class="contact-info list-unstyled">
-              <li><a href="mailto:sales@landy.com">Sales@Landy.com</a></li>
-              <li><a href="tel:123456789">+00 123 456 789</a></li>
-            </ul>
-            <ul class="social-icons list-inline">
-              <li class="list-inline-item"><a href="#" target="_blank" title="Facebook"><i class="fa fa-facebook"></i></a></li>
-              <li class="list-inline-item"><a href="#" target="_blank" title="Twitter"><i class="fa fa-twitter"></i></a></li>
-              <li class="list-inline-item"><a href="#" target="_blank" title="Instagram"><i class="fa fa-instagram"></i></a></li>
-              <li class="list-inline-item"><a href="#" target="_blank" title="Pinterest"><i class="fa fa-pinterest"></i></a></li>
-            </ul>
-          </div>
-          <div class="col-lg-3 col-md-6">
-            <h5>Selected Cases</h5>
-            <ul class="links list-unstyled">
-              <li> <a href="#">Guess Conntect</a></li>
-              <li> <a href="#">Postly</a></li>
-              <li> <a href="#">Iris Vor Arnim</a></li>
-              <li> <a href="#">Yapital</a></li>
-            </ul>
-          </div>
-          <div class="col-lg-3 col-md-6">
-            <h5>Selected Cases</h5>
-            <ul class="links list-unstyled">
-              <li> <a href="#">Guess Conntect</a></li>
-              <li> <a href="#">Postly</a></li>
-              <li> <a href="#">Iris Vor Arnim</a></li>
-              <li> <a href="#">Yapital</a></li>
-            </ul>
-          </div>
-          <div class="col-lg-3 col-md-6">
-            <h5>Selected Cases</h5>
-            <ul class="links list-unstyled">
-              <li> <a href="#">Guess Conntect</a></li>
-              <li> <a href="#">Postly</a></li>
-              <li> <a href="#">Iris Vor Arnim</a></li>
-              <li> <a href="#">Yapital</a></li>
-            </ul>
-          </div>
         </div>
-      </div>
-      <div class="copyrights">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-7">
-              <p>&copy; 2017 Landy.com. All rights reserved.                        </p>
-            </div>
-            <div class="col-md-5 text-right">
-              <p>Template By <a href="https://bootstrapious.com/" class="external">Bootstrapious</a>  </p>
-              <!-- Please do not remove the backlink to Bootstrapious unless you support us at http://bootstrapious.com/donate. It is part of the license conditions. Thanks for understanding :) -->
-            </div>
-          </div>
+        </div>
         </div>
       </div>
     </footer>
  
     <!-- Javascript files-->
-    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"> </script>
     <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
     <script src="vendor/jquery.cookie/jquery.cookie.js"> </script>
