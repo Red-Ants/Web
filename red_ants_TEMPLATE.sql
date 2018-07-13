@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jul 13, 2018 at 04:03 PM
+-- Generation Time: Jul 13, 2018 at 04:15 PM
 -- Server version: 10.1.33-MariaDB
 -- PHP Version: 7.2.6
 
@@ -85,7 +85,8 @@ CREATE TABLE `red_ants_roles` (
 
 INSERT INTO `red_ants_roles` (`role_id`, `role_name`) VALUES
 ('1', 'admin'),
-('2', 'student');
+('2', 'student'),
+('3', 'faculty');
 
 -- --------------------------------------------------------
 
