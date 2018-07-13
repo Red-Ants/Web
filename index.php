@@ -52,6 +52,8 @@ session_unset();
            <!-- Stylesheets -->
 
   <link rel="stylesheet" href="css/set1.css">
+  <script src="js/jquery-3.3.1.min.js"></script>
+
 
 
 <style>
@@ -65,7 +67,16 @@ body {
 </style>
 
     </head>
-    <body>
+    <body id="mainx">
+
+    <script>
+            
+            function loadregister(){
+              $("#main-wrapper").load("php/content/register/regform.php");
+
+            }
+          
+          </script>
   
         
        
@@ -603,15 +614,15 @@ iframe {
         </div>
           <div>
           <div class="container-login100-form-btn " >
-        <button class="btn btn-primary pull-left" style="background-color:#ff5500;" type="REGISTER">
-       REGISTER NOW
+        <button class="btn btn-primary pull-left" style="background-color:#ff5500;" onclick="loadregister()">
+            REGISTER NOW
           </button>
           </div>
   </div>
         </div>
         <!-- Javascript files-->
         <!--===============================================================================================-->
-  <script src="js/jquery-3.3.1.min.js"></script>
+  
 <!--===============================================================================================-->
   <script src="log/vendor/animsition/js/animsition.min.js"></script>
 <!--===============================================================================================-->

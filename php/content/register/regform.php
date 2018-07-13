@@ -62,11 +62,29 @@
            <!-- Stylesheets -->
 
   <link rel="stylesheet" href="css/set1.css">
+  <script src="js/jquery-3.3.1.min.js"></script>
 
-         <script
-  src="https://code.jquery.com/jquery-3.3.1.min.js"
-  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-  crossorigin="anonymous"></script>
+  <script>
+      var abc = "php/content/register/regvalidation.js?v=";
+      // var d = new Date();
+      // var n = d.getSeconds();
+      var n = new Date().getTime();
+      abc += n;
+
+      var scripta = document.createElement('script');
+
+      console.log(scripta);
+
+      scripta.src = ""+abc+"";
+
+      var main = document.getElementById("main-wrapper");
+
+      main.appendChild(scripta);
+
+     // ("#main-wrapper").append(scripta)
+  
+  </script>
+  
 
 
 <style>
@@ -84,6 +102,7 @@ body {
 
        
 <div id="main-wrapper">
+
 
           
   <div class="container-fluid">
@@ -563,7 +582,7 @@ iframe {
 <br>      
   
 <br>
-	<form class="login100-form validate-form" onsubmit="return validate_regform()" name="register">
+	<form class="login100-form validate-form" onsubmit="return false" name="register">
          
        
 
@@ -589,7 +608,7 @@ iframe {
           </div>
      <div class="wrap-input100 validate-input">
             <input class="input100" type="text" name="fname">
-            <span class="focus-input100" data-placeholder="USERNAME*"></span>
+            <span class="focus-input100" data-placeholder="NAME*"></span>
           </div>
             <div class="wrap-input100 validate-input">
             <input class="input100" type="number" name="mobile">
@@ -611,12 +630,12 @@ iframe {
 
           <select class="input__field input__field--hoshi" type="text" name="branch" style="background-color: black" >
             <option value="">--Select your Branch--</option>
-      <option value="cse">CSE</option>
-            <option value="it">IT</option>
-            <option value="ece">ECE</option>
-            <option value="eee" >EEE</option>
-            <option value="mech">MECH</option>
-            <option value="civil">CIVIL</option>
+      <option value="CSE">CSE</option>
+            <option value="IT">IT</option>
+            <option value="ECE">ECE</option>
+            <option value="EEE" >EEE</option>
+            <option value="MECH">MECH</option>
+            <option value="CIV">CIVIL</option>
           </select>
           
         </span>
@@ -626,10 +645,10 @@ iframe {
           </label><br>
           <select class="input__field input__field--hoshi" name="year" type="text" style="background-color: black" >
             <option value="">--Select your Year--</option>
-            <option value="I B.tech" >I B.Tech</option>
-            <option value="II B.tech">II B.Tech</option>
-            <option value="III B.tech">III B.Tech</option>
-            <option value="IV B.tech">IV B.Tech</option>
+            <option value="I B.Tech" >I B.Tech</option>
+            <option value="II B.Tech">II B.Tech</option>
+            <option value="III B.Tech">III B.Tech</option>
+            <option value="IV B.Tech">IV B.Tech</option>
           </select>
         </span>
         <div class="wrap-input100 validate-input">
@@ -708,71 +727,9 @@ iframe {
 <script>
 
 
-function reg(){
-
-  var dataList = {
-    'htno': document.forms['register']['htno'].value,
-    'passwd': document.forms['register']['password'].value,
-    'name': document.forms['register']['fname'].value,
-    'mobile': document.forms['register']['mobile'].value,
-    'email': document.forms['register']['email'].value,
-    'branch': document.forms['register']['branch'].value,
-    'year': document.forms['register']['year'].value,
-    'aggregate': document.forms['register']['aggregate'].value,
-    'about':document.forms['register']['about'].value,
-
-    'TE01':document.forms['register']['TE01'].checked,
-    'TE02':document.forms['register']['TE02'].checked,
-    'TE03':document.forms['register']['TE03'].checked,
-    'TE04':document.forms['register']['TE04'].checked,
-    'TE05':document.forms['register']['TE05'].checked,
-    'TE06':document.forms['register']['TE06'].checked,
-    'TE07':document.forms['register']['TE07'].checked,
-    'TE08':document.forms['register']['TE08'].checked,
-    'TE09':document.forms['register']['TE09'].checked,
-
-    'AR01':document.forms['register']['AR01'].checked,
-    'AR02':document.forms['register']['AR02'].checked,
-    'AR03':document.forms['register']['AR03'].checked,
-    'AR04':document.forms['register']['AR04'].checked,
-
-    'PA01':document.forms['register']['PA01'].checked,
-    'PA02':document.forms['register']['PA02'].checked,
-    'PA03':document.forms['register']['PA03'].checked,
-    'PA04':document.forms['register']['PA04'].checked,
-    'PA05':document.forms['register']['PA05'].checked,
-    'PA06':document.forms['register']['PA06'].checked,
-    'PA07':document.forms['register']['PA07'].checked,
-    'PA08':document.forms['register']['PA08'].checked,
-    'PA09':document.forms['register']['PA09'].checked,
-
-    'CU01':document.forms['register']['CU01'].checked,
-    'CU02':document.forms['register']['CU02'].checked,
-    'CU03':document.forms['register']['CU03'].checked,
-    'CU04':document.forms['register']['CU04'].checked,
-
-    'SO01':document.forms['register']['SO01'].checked,
-    'SO02':document.forms['register']['SO02'].checked
-
-};
-
-    
-
-  $.ajax({
-    type:'POST',
-    url:'php/register.php',
-    data:dataList,
-    success:function(msg){
-      $('#temp').html(msg);
-    }
-  });
-  return false
-}
-
-
 </script>
         <div class="cta">
-          <button class="btn btn-primary pull-left"  style="background-color:#ff5500;" type="submit">
+          <button class="btn btn-primary pull-left" onclick="validate_regform()" style="background-color:#ff5500;" type="submit">
             Register Now
           </button>
           

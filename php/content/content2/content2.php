@@ -520,7 +520,7 @@ iframe {
 
           <div class="wrap-input100 validate-input">
             <input class="input100" type="text" name="user_id">
-            <span class="focus-input100" data-placeholder="USERNAME*"></span>
+            <span class="focus-input100" data-placeholder="STAFF ID*"></span>
           </div>
 
           <div class="container-login100-form-btn">

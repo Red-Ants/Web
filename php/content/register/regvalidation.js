@@ -1,3 +1,64 @@
+function reg(){
+
+    var dataList = {
+      'htno': document.forms['register']['htno'].value,
+      'passwd': document.forms['register']['password'].value,
+      'name': document.forms['register']['fname'].value,
+      'mobile': document.forms['register']['mobile'].value,
+      'email': document.forms['register']['email'].value,
+      'branch': document.forms['register']['branch'].value,
+      'year': document.forms['register']['year'].value,
+      'aggregate': document.forms['register']['aggregate'].value,
+      'about':document.forms['register']['about'].value,
+  
+      'TE01':document.forms['register']['TE01'].checked,
+      'TE02':document.forms['register']['TE02'].checked,
+      'TE03':document.forms['register']['TE03'].checked,
+      'TE04':document.forms['register']['TE04'].checked,
+      'TE05':document.forms['register']['TE05'].checked,
+      'TE06':document.forms['register']['TE06'].checked,
+      'TE07':document.forms['register']['TE07'].checked,
+      'TE08':document.forms['register']['TE08'].checked,
+      'TE09':document.forms['register']['TE09'].checked,
+  
+      'AR01':document.forms['register']['AR01'].checked,
+      'AR02':document.forms['register']['AR02'].checked,
+      'AR03':document.forms['register']['AR03'].checked,
+      'AR04':document.forms['register']['AR04'].checked,
+  
+      'PA01':document.forms['register']['PA01'].checked,
+      'PA02':document.forms['register']['PA02'].checked,
+      'PA03':document.forms['register']['PA03'].checked,
+      'PA04':document.forms['register']['PA04'].checked,
+      'PA05':document.forms['register']['PA05'].checked,
+      'PA06':document.forms['register']['PA06'].checked,
+      'PA07':document.forms['register']['PA07'].checked,
+      'PA08':document.forms['register']['PA08'].checked,
+      'PA09':document.forms['register']['PA09'].checked,
+  
+      'CU01':document.forms['register']['CU01'].checked,
+      'CU02':document.forms['register']['CU02'].checked,
+      'CU03':document.forms['register']['CU03'].checked,
+      'CU04':document.forms['register']['CU04'].checked,
+  
+      'SO01':document.forms['register']['SO01'].checked,
+      'SO02':document.forms['register']['SO02'].checked
+  
+  };
+  
+      
+  
+    $.ajax({
+      type:'post',
+      url:'php/register.php',
+      data:dataList,
+      success:function(msg){
+        $('#temp').html(msg);
+      }
+    });
+  }
+
+
 function validate_regform(){
 
    
@@ -8,12 +69,20 @@ function validate_regform(){
 
     if(htno.value==""){
 
-        alert("PROVIDE THE H.NO")
+        alert("PROVIDE THE HT.NO")
 
         htno.focus()
 
         return false
 
+    }
+    else if(htno.value.length != 10){
+
+        alert("INCORRECT HT.NO")
+
+        htno.focus()
+
+        return false
     }
 
 
@@ -29,6 +98,12 @@ function validate_regform(){
         return false
 
     }
+    else if(password.value.length < 6){
+
+        alert('PASSWORD SHOULD BE ATLEAST SIX CHARACTERS.')
+
+        return false
+    }
 
     var fname= document.forms['register']['fname']
 
@@ -40,6 +115,14 @@ function validate_regform(){
 
         return false
 
+    }
+    else if(fname.value.match(/^[A-Za-z\s]+$/) == null){
+
+        alert("NAME SHOULD ONLY CONTAIN ALPHABETS")
+
+        fname.focus()
+
+        return false
     }
 
     
@@ -55,6 +138,14 @@ function validate_regform(){
         return false
 
     }
+    else if(mobile.value.length != 10 || mobile.value.match(/^[0-9]+$/) == null){
+        
+        alert("INCORRECT MOBILE NUMBER")
+
+        mobile.focus()
+
+        return false
+    }
 
 
 
@@ -68,6 +159,14 @@ function validate_regform(){
 
         return false
 
+    }
+    else if(email.value.match(/^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,3})$/)==null){
+        
+        alert("INCORRECT EMAIL")
+
+        email.focus()
+
+        return false
     }
 
     var branch= document.forms['register']['branch']
@@ -92,27 +191,29 @@ function validate_regform(){
 
     var aggregate= document.forms['register']['aggregate']
 
-    if(aggregate.value==""){
+    // if(aggregate.value==""){
 
-        alert("PROVIDE THE AGGREGATE")
+    //     alert("PROVIDE THE AGGREGATE")
 
-        aggregate.focus()
+    //     aggregate.focus()
 
-        return false
+    //     return false
 
-    }
+    // }
+
+   
 
     var about=document.forms['register']['about']
 
-    if(about.value==""){
+    // if(about.value==""){
 
-        alert("PROVIDE THE ABOUT")
+    //     alert("PROVIDE THE ABOUT")
 
-        about.focus()
+    //     about.focus()
 
-        return false
+    //     return false
 
-    }
+    // }
 
 
 

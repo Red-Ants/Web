@@ -6,9 +6,7 @@
 
     $user_id = $_POST['htno'];
 
-    $pwd=$_POST['password'];
-
-    $name=$_POST['fname'];
+    $name=$_POST['name'];
 
     $mobile=$_POST['mobile'];
 
@@ -18,13 +16,13 @@
 
     $email=$_POST['email'];
 
-    $aggregate=$_POST['aggregate'];
+    // $aggregate=$_POST['aggregate'];
 
-    $about=$_POST['about'];
+    // $about=$_POST['about'];
 
     
 
-    include_once 'db_operations.php';
+    include_once '../../db_operations.php';
 
 
 
@@ -38,39 +36,30 @@
 
     $result = $dbobj->search('red_ants_user_information',"user_id",'user_id','"'.$user_id.'"');
 
-
-
-
-
     $row=$result->fetch_assoc();
 
-    if($row){
+    
+
+    if($row["user_id"]!=$user_id){
 
         echo "<script>
 
-       alert('USER ALREADY REGISTERED');
+       // window.top.location = '../index.php';
+       console.log('".$row["user_id"]." == ".$user_id."')
 
     </script>";
-
-    echo "<script>
-
-    window.top.location='index.php';
-
- </script>";
 
          die();
 
     }
 
-    $dbobj->insert('red_ants_users','(user_id,password)','("'.$user_id.'","'.md5($pwd).'")');
+    $q = 'UPDATE red_ants_user_information SET `name`="'.$name.'",`mobile`="'.$mobile.'",`year`="'.$year.'",`mail_id`="'.$email.'" WHERE user_id="'.$user_id.'"';
 
-    $values = '("'.$user_id.'","'.$name.'","'.$mobile.'","'.$branch.'","'.$year.'","'.$email.'")';
+    $dbobj->sqlQury($q); 
 
-    $dbobj->insert('red_ants_user_information',' ',$values); 
+    $q = 'DELETE FROM red_ants_user_hobbies WHERE user_id="'.$user_id.'"';
 
-    $dbobj->insert('red_ants_user_roles','(`user_id`, `role_id`)','("'.$user_id.'","2")');
-
-
+    $dbobj->sqlQury($q); 
 
     for($i=1;$i<=9;$i+=1){
 
@@ -136,18 +125,7 @@
 
     echo "<script>
 
-       alert('REGISTERED STUDENT.');
-
-    </script>";
-
-
-
-    echo "<script>
-	setTimeout
-(function(){
-
-       window.top.location='redants.info';
-},3000);
+       alert('UPDATION SUCESSFUL.');
 
     </script>";
 
