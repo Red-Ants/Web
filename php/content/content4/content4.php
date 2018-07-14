@@ -1,42 +1,38 @@
-<html lang="en">
+<?php
+    session_start();
 
-<head>
-
-  <meta charset="utf-8">
-
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-
-
-
-  <title></title>
-
-  <script src="jquery-1.11.2.min.js"></script>
+    if(!isset($_SESSION['logged'])){
+        echo "<script>window.top.location='index.php'</script>";
+    }
+    else{
+        if(($_SESSION['logged'])==false){
+            echo "<script>window.top.location='index.php'</script>";
+        }
+    }
+?>
 
 
 
 
+  <!-- Stylesheets 
 
-  <!-- Stylesheets -->
+  <link rel="stylesheet" href="css1/style.css">
 
-  <link rel="stylesheet" href="../../../css1/style.css">
-
-  <link rel="stylesheet" href="../../../css1/set1.css">
-
+  <link rel="stylesheet" href="css1/set1.css">
 
 
-  <!--Google Fonts
+
+  Google Fonts
 
   <link href='https://fonts.googleapis.com/css?family=Playfair+Display' rel='stylesheet' type='text/css'>
 
   <link href='https://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
 
-  -->
+
 
   <link href='Playfair.css' rel='stylesheet' type='text/css'>
 
-  <link href='Lato.css' rel='stylesheet' type='text/css'>
+  <link href='Lato.css' rel='stylesheet' type='text/css'>-->
 
 <style type="text/css">
 
@@ -98,11 +94,7 @@
 
     #image {
 
-        /*background-image: url("../../../images/ralogo.png");
-
-     
-
-       background-color: black;
+        /*background-image: url("images/ralogo.png");
 
       background-repeat: no-repeat;
 
@@ -124,13 +116,6 @@
 
   </style>
 
-
-
-</head>
-
-
-
-<body style="background-color:black">
 
   <div id="main-wrapper">
 
@@ -400,11 +385,13 @@
 
 
 
-<!-- Scripts -->
+<!-- Scripts 
 
-<script src="../../../js/scripts.js"></script>
+<script src="js/scripts.js"></script>
 
-<script src="../../../js/classie.js"></script>
+<script src="js/classie.js"></script>
+
+-->
 
 <script>
 
@@ -546,9 +533,9 @@
 
       $.ajax({
 
-              type:'POST',
+              type:'post',
 
-              url:'reports.php',
+              url:"reports.php",
 
               data:dat,
 
@@ -567,11 +554,4 @@
 
 
   </script>
-
-
-
-
-</body>
-
-</html>
 
