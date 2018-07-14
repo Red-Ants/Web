@@ -535,7 +535,7 @@
 
               type:'post',
 
-              url:"reports.php",
+              url:"php/content/content4/reports.php",
 
               data:dat,
 

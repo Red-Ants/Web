@@ -1,0 +1,6 @@
+[14-Jul-2018 11:52:17 UTC] PHP Warning:  include_once(php/db_operations.php): failed to open stream: No such file or directory in /home/acc5d3330cdw/public_html/php/content/reports.php on line 3
+[14-Jul-2018 11:52:17 UTC] PHP Warning:  include_once(): Failed opening 'php/db_operations.php' for inclusion (include_path='.:/opt/alt/php71/usr/share/pear') in /home/acc5d3330cdw/public_html/php/content/reports.php on line 3
+[14-Jul-2018 11:52:17 UTC] PHP Fatal error:  Uncaught Error: Class 'DBConnect' not found in /home/acc5d3330cdw/public_html/php/content/reports.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/acc5d3330cdw/public_html/php/content/reports.php on line 5
