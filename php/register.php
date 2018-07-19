@@ -2,12 +2,19 @@
 
     session_start();
 
+	session_unset();
+
+if(isset($_POST['loader'])){
+	echo "<script>console.log('ONLINE')</script>";
+	die();
+}
+
     
 
     $user_id = $_POST['htno'];
 
     $pwd=$_POST['password'];
-
+	
     $name=$_POST['fname'];
 
     $mobile=$_POST['mobile'];
@@ -136,7 +143,7 @@
 
     echo "<script>
 
-       alert('REGISTERED STUDENT.');
+       alert('STUDENT REGISTERED.');
 
     </script>";
 
@@ -146,7 +153,7 @@
 	setTimeout
 (function(){
 
-       window.top.location='redants.info';
+       window.top.location='../';
 },3000);
 
     </script>";

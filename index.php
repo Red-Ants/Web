@@ -70,9 +70,37 @@ body {
     <body id="mainx">
 
     <script>
-            
+            $(function(){
+	$.ajax({
+      type:'POST',
+      url:'php/register.php',
+      data:"loader=works",
+	error:function(msg){
+		alert("BAD INTERNET CONNECTION --> RELOADING...");
+		reload();
+	},
+      success:function(msg){
+        $('#temp').html(msg);
+      }
+    });
+  
+});
             function loadregister(){
+$.ajax({
+      type:'POST',
+      url:'php/register.php',
+      data:"loader=works",
+	error:function(msg){
+		alert("BAD INTERNET CONNECTION --> RELOADING...");
+		reload();
+	},
+      success:function(msg){
+        $('#temp').html(msg);
+      }
+    });
+
               $("#main-wrapper").load("php/content/register/regform.php");
+
 
             }
           
@@ -588,7 +616,7 @@ iframe {
 
           <div class="wrap-input100 validate-input">
             <input class="input100" type="text" name="user_id">
-            <span class="focus-input100" data-placeholder="USERNAME*"></span>
+            <span class="focus-input100" data-placeholder="HALLTICKET NO.*"></span>
           </div>
 
           <div class="wrap-input100 validate-input" data-validate="Enter password">

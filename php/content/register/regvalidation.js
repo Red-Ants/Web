@@ -2,7 +2,7 @@ function reg(){
 
     var dataList = {
       'htno': document.forms['register']['htno'].value,
-      'passwd': document.forms['register']['password'].value,
+      'password': document.forms['register']['password'].value,
       'name': document.forms['register']['fname'].value,
       'mobile': document.forms['register']['mobile'].value,
       'email': document.forms['register']['email'].value,
@@ -60,7 +60,6 @@ function reg(){
 
 
 function validate_regform(){
-
    
 
     var htno = document.forms['register']['htno']

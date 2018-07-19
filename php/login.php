@@ -92,6 +92,13 @@
     // });
 
     // </script>";
+   echo "<script>
+
+       alert('INCORRECT PASSWORD TYPED.');
+
+    </script>";
+
+
 
     
 

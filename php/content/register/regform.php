@@ -1,15 +1,8 @@
-<!--<?php
+<?php
     session_start();
 
-    if(!isset($_SESSION['logged'])){
-        echo "<script>window.top.location='index.php'</script>";
-    }
-    else{
-        if(($_SESSION['logged'])==false){
-            echo "<script>window.top.location='index.php'</script>";
-        }
-    }
-?>-->
+    session_unset();
+?>
 
 <html>
     <head>
@@ -80,8 +73,6 @@
       var main = document.getElementById("main-wrapper");
 
       main.appendChild(scripta);
-
-     // ("#main-wrapper").append(scripta)
   
   </script>
   
@@ -736,11 +727,38 @@ iframe {
 </div>
 
 </div>
-    </div>
-
-           
+    </div>           
      
         </form>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"> </script>
+        <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+        <script src="vendor/jquery.cookie/jquery.cookie.js"> </script>
+        <script src="vendor/owl.carousel/owl.carousel.min.js"></script>
+        <script src="js/front.js"></script>
+
+        <!--===============================================================================================-->
+<!--===============================================================================================-->
+  <script src="log/vendor/animsition/js/animsition.min.js"></script>
+<!--===============================================================================================-->
+  <script src="log/vendor/bootstrap/js/popper.js"></script>
+  <script src="log/vendor/bootstrap/js/bootstrap.min.js"></script>
+<!--===============================================================================================-->
+  <script src="log/vendor/select2/select2.min.js"></script>
+<!--===============================================================================================-->
+  <script src="log/vendor/daterangepicker/moment.min.js"></script>
+  <script src="log/vendor/daterangepicker/daterangepicker.js"></script>
+<!--===============================================================================================-->
+  <script src="log/vendor/countdowntime/countdowntime.js"></script>
+<!--===============================================================================================-->
+  <script src="log/js/main.js"></script>
+        <script>
+            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+            e.src='//www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+            ga('create','UA-XXXXX-X');ga('send','pageview');
+          </script>
 
   
         </div>
