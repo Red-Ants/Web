@@ -546,7 +546,7 @@ iframe {
               </div>
             
               <div class="form-group">
-                <label class="col-lg-6 control-label" STYLE="color:#FFF">HALLTICKET_NO :(CANNOT MODIFY)</label>
+                <label class="col-lg-12 control-label" STYLE="color:#FFF">HALLTICKET_NO :(CANNOT MODIFY)</label>
                 <div class="col-lg-5">
                   <input disabled class="form-control" name='htno' value="">
                 </div>
@@ -565,9 +565,9 @@ iframe {
                 </div>
               </div>
               <div class="form-group">
-                <label class="col-md-6 control-label" STYLE="color:#FFF">BRANCH :(CANNOT MODIFY)</label>
+                <label class="col-md-12 control-label" STYLE="color:#FFF">BRANCH :(CANNOT MODIFY IN FUTURE)</label>
                 <div class="col-md-5">
-                        <select disabled type="text" name="branch" style="color: black" >
+                        <select type="text" name="branch" style="color: black" >
                                 <option value="">--</option>
                                 <option value="CSE">CSE</option>
                                 <option value="IT">IT</option>
@@ -575,6 +575,13 @@ iframe {
                                 <option value="EEE" >EEE</option>
                                 <option value="MECH">MECH</option>
                                 <option value="CIV">CIVIL</option>
+				<!--<option value="cse">CSE</option>
+                                <option value="it">IT</option>
+                                <option value="ece">ECE</option>
+                                <option value="eee" >EEE</option>
+                                <option value="mech">MECH</option>
+                                <option value="civ">CIVIL</option>-->
+
                               </select>
                               
                 </div>

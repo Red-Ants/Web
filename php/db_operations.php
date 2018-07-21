@@ -28,7 +28,7 @@
         function connect(){
             $this->serverName = $_SERVER['HTTP_HOST'];
 
-           if($this->serverName == "redants.info"){
+           if($this->serverName == "redants.info" || $this->serverName == "www.redants.info" ){
                 $this->serverName = "localhost";
                 $this->username = "redants";
                 $this->password = "Sasi@123";
@@ -65,11 +65,11 @@
             }
             
             else{
-                echo "<script>alert('Connection ERROR.')</script>";
+                echo "<script>alert('THERE IS PROBLEM WITH CONNECTING TO THE SERVER.')</script>";
                 session_start();
                 session_unset();
                 session_destroy();
-                echo "<script>         window.top.location = '../index.php';     </script>";
+                echo "<script> reload(); </script>";
                 die();
             }
                

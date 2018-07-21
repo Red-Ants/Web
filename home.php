@@ -1,3 +1,16 @@
+<?php
+    session_start();
+
+    if(!isset($_SESSION['logged'])){
+        echo "<script>window.top.location='index.php'</script>";
+    }
+    else{
+        if(($_SESSION['logged'])==false){
+            echo "<script>window.top.location='index.php'</script>";
+        }
+    }
+?> 
+
 <html>
   <head>
     <meta charset="utf-8">
@@ -61,9 +74,26 @@ $(function(){
     <!-- Modal-->
 
     <div id="temp"></div>
+<script>
+		var myIndex = 0;
+		setTimeout(function(){
+			carousel(1);
+		},2000);
+		var aimg = ['img/banner.jpg','img/slide1.jpg'];
+		var len = aimg.length;
+		function carousel(x) {
+		var i = parseInt(x) % (len);
+		document.getElementById('homebody').src = aimg[i]//'background-image : url('+aimg[i]+');background-repeat: no-repeat;background-size: cover;';
+		x = i;
+		setTimeout(function(){
+			carousel(x+1)}, 10000); // Change image every 5 seconds
+		}
+</script>
 
     <div id="content">
-      <img src="img/banner.jpg" style="width: 100% height: auto;" style= alt="..." class="img-fluid">
+<div>
+      <img src="img/banner.jpg" id="homebody" style="width: 100% height: auto;" style= alt="..." class="img-fluid">
+</div>
     </div>
 <!-- Javascript files-->
         <!--===============================================================================================-->
@@ -102,13 +132,13 @@ $(function(){
 
 
 
- <footer class="main-footer">
+ <!--<footer class="main-footer">
       <div class="container">
         <div class="row">
         </div>
         </div>
         </div>
       </div>
-    </footer>
+    </footer>-->
   </body>
 </html>

@@ -92,11 +92,11 @@
     // });
 
     // </script>";
-   echo "<script>
+   echo '<script>
 
-       alert('INCORRECT PASSWORD TYPED.');
+       alert("INCORRECT PASSWORD.\nTRY DEFAULT PASSWORD \"redants@123\"");
 
-    </script>";
+    </script>';
 
 
 

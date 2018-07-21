@@ -148,15 +148,15 @@ function validate_regform(){
         return false
     }
 
-    // var branch= document.forms['profile_student']['branch']
+     var branch= document.forms['profile_student']['branch']
 
-    // if(branch.value==""){
+     if(branch.value==""){
 
-    //     alert("SELECT THE BRANCH")
+         alert("SELECT THE BRANCH")
 
-    //     return false
+       return false
 
-    // }
+     }
 
     var year= document.forms['profile_student']['year']
 

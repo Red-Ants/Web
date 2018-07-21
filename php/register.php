@@ -69,7 +69,7 @@ if(isset($_POST['loader'])){
 
     }
 
-    $dbobj->insert('red_ants_users','(user_id,password)','("'.$user_id.'","'.md5($pwd).'")');
+    $dbobj->insert('red_ants_users','(user_id,password)','(UPPER("'.$user_id.'"),"'.md5($pwd).'")');
 
     $values = '("'.$user_id.'","'.$name.'","'.$mobile.'","'.$branch.'","'.$year.'","'.$email.'")';
 

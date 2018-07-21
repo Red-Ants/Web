@@ -10799,3 +10799,358 @@ Stack trace:
 Stack trace:
 #0 {main}
   thrown in /home/acc5d3330cdw/public_html/php/nav.php on line 16
+[19-Jul-2018 14:05:52 UTC] PHP Notice:  Undefined index: role in /home/acc5d3330cdw/public_html/php/nav.php on line 11
+[19-Jul-2018 14:05:52 UTC] PHP Notice:  Trying to get property of non-object in /home/acc5d3330cdw/public_html/php/db_operations.php on line 198
+[19-Jul-2018 14:05:52 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home/acc5d3330cdw/public_html/php/nav.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/acc5d3330cdw/public_html/php/nav.php on line 16
+[19-Jul-2018 14:06:57 UTC] PHP Notice:  Undefined index: role in /home/acc5d3330cdw/public_html/php/nav.php on line 11
+[19-Jul-2018 14:06:57 UTC] PHP Notice:  Trying to get property of non-object in /home/acc5d3330cdw/public_html/php/db_operations.php on line 198
+[19-Jul-2018 14:06:57 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home/acc5d3330cdw/public_html/php/nav.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/acc5d3330cdw/public_html/php/nav.php on line 16
+[19-Jul-2018 14:06:58 UTC] PHP Notice:  Undefined index: role in /home/acc5d3330cdw/public_html/php/nav.php on line 11
+[19-Jul-2018 14:06:58 UTC] PHP Notice:  Trying to get property of non-object in /home/acc5d3330cdw/public_html/php/db_operations.php on line 198
+[19-Jul-2018 14:06:58 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home/acc5d3330cdw/public_html/php/nav.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/acc5d3330cdw/public_html/php/nav.php on line 16
+[19-Jul-2018 14:08:10 UTC] PHP Notice:  Undefined index: fname in /home/acc5d3330cdw/public_html/php/register.php on line 18
+[19-Jul-2018 14:17:53 UTC] PHP Notice:  Undefined index: fname in /home/acc5d3330cdw/public_html/php/register.php on line 18
+[19-Jul-2018 14:24:41 UTC] PHP Notice:  Undefined index: role in /home/acc5d3330cdw/public_html/php/nav.php on line 11
+[19-Jul-2018 14:24:41 UTC] PHP Notice:  Trying to get property of non-object in /home/acc5d3330cdw/public_html/php/db_operations.php on line 198
+[19-Jul-2018 14:24:41 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home/acc5d3330cdw/public_html/php/nav.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/acc5d3330cdw/public_html/php/nav.php on line 16
+[19-Jul-2018 14:24:49 UTC] PHP Notice:  Undefined index: role in /home/acc5d3330cdw/public_html/php/nav.php on line 11
+[19-Jul-2018 14:24:49 UTC] PHP Notice:  Trying to get property of non-object in /home/acc5d3330cdw/public_html/php/db_operations.php on line 198
+[19-Jul-2018 14:24:49 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home/acc5d3330cdw/public_html/php/nav.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/acc5d3330cdw/public_html/php/nav.php on line 16
+[19-Jul-2018 14:24:56 UTC] PHP Notice:  Undefined index: role in /home/acc5d3330cdw/public_html/php/nav.php on line 11
+[19-Jul-2018 14:24:56 UTC] PHP Notice:  Trying to get property of non-object in /home/acc5d3330cdw/public_html/php/db_operations.php on line 198
+[19-Jul-2018 14:24:56 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home/acc5d3330cdw/public_html/php/nav.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/acc5d3330cdw/public_html/php/nav.php on line 16
+[19-Jul-2018 14:25:18 UTC] PHP Notice:  Undefined index: role in /home/acc5d3330cdw/public_html/php/nav.php on line 11
+[19-Jul-2018 14:25:18 UTC] PHP Notice:  Trying to get property of non-object in /home/acc5d3330cdw/public_html/php/db_operations.php on line 198
+[19-Jul-2018 14:25:18 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home/acc5d3330cdw/public_html/php/nav.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/acc5d3330cdw/public_html/php/nav.php on line 16
+[19-Jul-2018 14:25:18 UTC] PHP Notice:  Undefined index: role in /home/acc5d3330cdw/public_html/php/nav.php on line 11
+[19-Jul-2018 14:25:18 UTC] PHP Notice:  Trying to get property of non-object in /home/acc5d3330cdw/public_html/php/db_operations.php on line 198
+[19-Jul-2018 14:25:18 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home/acc5d3330cdw/public_html/php/nav.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/acc5d3330cdw/public_html/php/nav.php on line 16
+[19-Jul-2018 14:26:04 UTC] PHP Notice:  Undefined index: role in /home/acc5d3330cdw/public_html/php/nav.php on line 11
+[19-Jul-2018 14:26:04 UTC] PHP Notice:  Trying to get property of non-object in /home/acc5d3330cdw/public_html/php/db_operations.php on line 198
+[19-Jul-2018 14:26:04 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home/acc5d3330cdw/public_html/php/nav.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/acc5d3330cdw/public_html/php/nav.php on line 16
+[19-Jul-2018 14:58:30 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/acc5d3330cdw/public_html/php/db_operations.php on line 69
+[19-Jul-2018 14:59:03 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/acc5d3330cdw/public_html/php/db_operations.php on line 69
+[19-Jul-2018 14:59:29 UTC] PHP Notice:  Undefined index: fname in /home/acc5d3330cdw/public_html/php/register.php on line 18
+[19-Jul-2018 15:03:19 UTC] PHP Notice:  Undefined index: fname in /home/acc5d3330cdw/public_html/php/register.php on line 18
+[19-Jul-2018 15:03:49 UTC] PHP Notice:  Undefined index: fname in /home/acc5d3330cdw/public_html/php/register.php on line 18
+[19-Jul-2018 15:05:57 UTC] PHP Notice:  Undefined index: fname in /home/acc5d3330cdw/public_html/php/register.php on line 18
+[19-Jul-2018 15:13:46 UTC] PHP Notice:  Undefined index: fname in /home/acc5d3330cdw/public_html/php/register.php on line 18
+[19-Jul-2018 15:18:08 UTC] PHP Notice:  Undefined index: fname in /home/acc5d3330cdw/public_html/php/register.php on line 18
+[19-Jul-2018 15:19:43 UTC] PHP Notice:  Undefined index: fname in /home/acc5d3330cdw/public_html/php/register.php on line 18
+[19-Jul-2018 15:21:19 UTC] PHP Notice:  Undefined index: fname in /home/acc5d3330cdw/public_html/php/register.php on line 18
+[19-Jul-2018 15:21:19 UTC] PHP Notice:  Undefined index: fname in /home/acc5d3330cdw/public_html/php/register.php on line 18
+[19-Jul-2018 15:23:56 UTC] PHP Notice:  Undefined index: role in /home/acc5d3330cdw/public_html/php/nav.php on line 11
+[19-Jul-2018 15:23:56 UTC] PHP Notice:  Trying to get property of non-object in /home/acc5d3330cdw/public_html/php/db_operations.php on line 198
+[19-Jul-2018 15:23:56 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home/acc5d3330cdw/public_html/php/nav.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/acc5d3330cdw/public_html/php/nav.php on line 16
+[19-Jul-2018 15:36:11 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/acc5d3330cdw/public_html/php/db_operations.php on line 69
+[19-Jul-2018 15:37:26 UTC] PHP Notice:  Undefined index: fname in /home/acc5d3330cdw/public_html/php/register.php on line 18
+[19-Jul-2018 15:37:26 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/acc5d3330cdw/public_html/php/db_operations.php on line 69
+[19-Jul-2018 15:37:31 UTC] PHP Notice:  Undefined index: fname in /home/acc5d3330cdw/public_html/php/register.php on line 18
+[19-Jul-2018 15:37:31 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/acc5d3330cdw/public_html/php/db_operations.php on line 69
+[19-Jul-2018 15:37:38 UTC] PHP Notice:  Undefined index: fname in /home/acc5d3330cdw/public_html/php/register.php on line 18
+[19-Jul-2018 15:37:38 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/acc5d3330cdw/public_html/php/db_operations.php on line 69
+[19-Jul-2018 15:37:39 UTC] PHP Notice:  Undefined index: fname in /home/acc5d3330cdw/public_html/php/register.php on line 18
+[19-Jul-2018 15:37:39 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/acc5d3330cdw/public_html/php/db_operations.php on line 69
+[19-Jul-2018 15:37:39 UTC] PHP Notice:  Undefined index: fname in /home/acc5d3330cdw/public_html/php/register.php on line 18
+[19-Jul-2018 15:37:39 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/acc5d3330cdw/public_html/php/db_operations.php on line 69
+[19-Jul-2018 15:37:39 UTC] PHP Notice:  Undefined index: fname in /home/acc5d3330cdw/public_html/php/register.php on line 18
+[19-Jul-2018 15:37:39 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/acc5d3330cdw/public_html/php/db_operations.php on line 69
+[19-Jul-2018 15:37:47 UTC] PHP Notice:  Undefined index: fname in /home/acc5d3330cdw/public_html/php/register.php on line 18
+[19-Jul-2018 15:37:47 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/acc5d3330cdw/public_html/php/db_operations.php on line 69
+[19-Jul-2018 15:37:48 UTC] PHP Notice:  Undefined index: fname in /home/acc5d3330cdw/public_html/php/register.php on line 18
+[19-Jul-2018 15:37:48 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/acc5d3330cdw/public_html/php/db_operations.php on line 69
+[19-Jul-2018 15:37:48 UTC] PHP Notice:  Undefined index: fname in /home/acc5d3330cdw/public_html/php/register.php on line 18
+[19-Jul-2018 15:37:48 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/acc5d3330cdw/public_html/php/db_operations.php on line 69
+[19-Jul-2018 15:37:48 UTC] PHP Notice:  Undefined index: fname in /home/acc5d3330cdw/public_html/php/register.php on line 18
+[19-Jul-2018 15:37:48 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/acc5d3330cdw/public_html/php/db_operations.php on line 69
+[19-Jul-2018 15:37:48 UTC] PHP Notice:  Undefined index: fname in /home/acc5d3330cdw/public_html/php/register.php on line 18
+[19-Jul-2018 15:37:48 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/acc5d3330cdw/public_html/php/db_operations.php on line 69
+[19-Jul-2018 15:37:48 UTC] PHP Notice:  Undefined index: fname in /home/acc5d3330cdw/public_html/php/register.php on line 18
+[19-Jul-2018 15:37:48 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/acc5d3330cdw/public_html/php/db_operations.php on line 69
+[19-Jul-2018 15:37:49 UTC] PHP Notice:  Undefined index: fname in /home/acc5d3330cdw/public_html/php/register.php on line 18
+[19-Jul-2018 15:37:49 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/acc5d3330cdw/public_html/php/db_operations.php on line 69
+[19-Jul-2018 15:37:49 UTC] PHP Notice:  Undefined index: fname in /home/acc5d3330cdw/public_html/php/register.php on line 18
+[19-Jul-2018 15:37:49 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/acc5d3330cdw/public_html/php/db_operations.php on line 69
+[19-Jul-2018 15:37:49 UTC] PHP Notice:  Undefined index: fname in /home/acc5d3330cdw/public_html/php/register.php on line 18
+[19-Jul-2018 15:37:49 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/acc5d3330cdw/public_html/php/db_operations.php on line 69
+[19-Jul-2018 15:37:49 UTC] PHP Notice:  Undefined index: fname in /home/acc5d3330cdw/public_html/php/register.php on line 18
+[19-Jul-2018 15:37:49 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/acc5d3330cdw/public_html/php/db_operations.php on line 69
+[19-Jul-2018 15:37:53 UTC] PHP Notice:  Undefined index: fname in /home/acc5d3330cdw/public_html/php/register.php on line 18
+[19-Jul-2018 15:37:53 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/acc5d3330cdw/public_html/php/db_operations.php on line 69
+[19-Jul-2018 15:37:53 UTC] PHP Notice:  Undefined index: fname in /home/acc5d3330cdw/public_html/php/register.php on line 18
+[19-Jul-2018 15:37:53 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/acc5d3330cdw/public_html/php/db_operations.php on line 69
+[19-Jul-2018 15:37:54 UTC] PHP Notice:  Undefined index: fname in /home/acc5d3330cdw/public_html/php/register.php on line 18
+[19-Jul-2018 15:37:54 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/acc5d3330cdw/public_html/php/db_operations.php on line 69
+[19-Jul-2018 15:38:05 UTC] PHP Notice:  Undefined index: fname in /home/acc5d3330cdw/public_html/php/register.php on line 18
+[19-Jul-2018 15:38:05 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/acc5d3330cdw/public_html/php/db_operations.php on line 69
+[19-Jul-2018 15:38:05 UTC] PHP Notice:  Undefined index: fname in /home/acc5d3330cdw/public_html/php/register.php on line 18
+[19-Jul-2018 15:38:05 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/acc5d3330cdw/public_html/php/db_operations.php on line 69
+[19-Jul-2018 15:38:05 UTC] PHP Notice:  Undefined index: fname in /home/acc5d3330cdw/public_html/php/register.php on line 18
+[19-Jul-2018 15:38:05 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/acc5d3330cdw/public_html/php/db_operations.php on line 69
+[19-Jul-2018 15:38:23 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/acc5d3330cdw/public_html/php/db_operations.php on line 69
+[19-Jul-2018 15:38:38 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/acc5d3330cdw/public_html/php/db_operations.php on line 69
+[19-Jul-2018 15:41:44 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/acc5d3330cdw/public_html/php/db_operations.php on line 69
+[19-Jul-2018 16:03:43 UTC] PHP Notice:  Undefined index: fname in /home/acc5d3330cdw/public_html/php/register.php on line 18
+[19-Jul-2018 16:06:20 UTC] PHP Notice:  Undefined index: fname in /home/acc5d3330cdw/public_html/php/register.php on line 18
+[19-Jul-2018 16:09:28 UTC] PHP Notice:  Undefined index: fname in /home/acc5d3330cdw/public_html/php/register.php on line 18
+[19-Jul-2018 16:27:47 UTC] PHP Notice:  Undefined index: fname in /home/acc5d3330cdw/public_html/php/register.php on line 18
+[19-Jul-2018 16:29:50 UTC] PHP Notice:  Undefined index: fname in /home/acc5d3330cdw/public_html/php/register.php on line 18
+[19-Jul-2018 16:35:41 UTC] PHP Notice:  Undefined index: fname in /home/acc5d3330cdw/public_html/php/register.php on line 18
+[19-Jul-2018 16:36:13 UTC] PHP Notice:  Undefined index: fname in /home/acc5d3330cdw/public_html/php/register.php on line 18
+[19-Jul-2018 16:41:19 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/acc5d3330cdw/public_html/php/db_operations.php on line 69
+[19-Jul-2018 16:41:45 UTC] PHP Notice:  Undefined index: fname in /home/acc5d3330cdw/public_html/php/register.php on line 18
+[19-Jul-2018 16:41:48 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/acc5d3330cdw/public_html/php/db_operations.php on line 69
+[19-Jul-2018 16:53:30 UTC] PHP Notice:  Undefined index: fname in /home/acc5d3330cdw/public_html/php/register.php on line 18
+[19-Jul-2018 16:53:30 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/acc5d3330cdw/public_html/php/db_operations.php on line 69
+[19-Jul-2018 16:53:34 UTC] PHP Notice:  Undefined index: fname in /home/acc5d3330cdw/public_html/php/register.php on line 18
+[19-Jul-2018 16:53:34 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/acc5d3330cdw/public_html/php/db_operations.php on line 69
+[19-Jul-2018 16:53:35 UTC] PHP Notice:  Undefined index: fname in /home/acc5d3330cdw/public_html/php/register.php on line 18
+[19-Jul-2018 16:53:35 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/acc5d3330cdw/public_html/php/db_operations.php on line 69
+[19-Jul-2018 16:53:43 UTC] PHP Notice:  Undefined index: fname in /home/acc5d3330cdw/public_html/php/register.php on line 18
+[19-Jul-2018 16:53:43 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/acc5d3330cdw/public_html/php/db_operations.php on line 69
+[19-Jul-2018 16:57:00 UTC] PHP Notice:  Undefined index: fname in /home/acc5d3330cdw/public_html/php/register.php on line 18
+[19-Jul-2018 16:58:28 UTC] PHP Notice:  Undefined index: fname in /home/acc5d3330cdw/public_html/php/register.php on line 18
+[19-Jul-2018 17:19:28 UTC] PHP Notice:  Undefined index: fname in /home/acc5d3330cdw/public_html/php/register.php on line 18
+[19-Jul-2018 19:09:50 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/acc5d3330cdw/public_html/php/db_operations.php on line 69
+[19-Jul-2018 19:10:23 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/acc5d3330cdw/public_html/php/db_operations.php on line 69
+[19-Jul-2018 19:14:18 UTC] PHP Notice:  Undefined index: fname in /home/acc5d3330cdw/public_html/php/register.php on line 18
+[19-Jul-2018 19:14:18 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/acc5d3330cdw/public_html/php/db_operations.php on line 69
+[19-Jul-2018 19:14:24 UTC] PHP Notice:  Undefined index: fname in /home/acc5d3330cdw/public_html/php/register.php on line 18
+[19-Jul-2018 19:14:24 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/acc5d3330cdw/public_html/php/db_operations.php on line 69
+[19-Jul-2018 19:14:25 UTC] PHP Notice:  Undefined index: fname in /home/acc5d3330cdw/public_html/php/register.php on line 18
+[19-Jul-2018 19:14:25 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/acc5d3330cdw/public_html/php/db_operations.php on line 69
+[19-Jul-2018 19:14:26 UTC] PHP Notice:  Undefined index: fname in /home/acc5d3330cdw/public_html/php/register.php on line 18
+[19-Jul-2018 19:14:26 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/acc5d3330cdw/public_html/php/db_operations.php on line 69
+[19-Jul-2018 19:14:26 UTC] PHP Notice:  Undefined index: fname in /home/acc5d3330cdw/public_html/php/register.php on line 18
+[19-Jul-2018 19:14:26 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/acc5d3330cdw/public_html/php/db_operations.php on line 69
+[19-Jul-2018 19:14:26 UTC] PHP Notice:  Undefined index: fname in /home/acc5d3330cdw/public_html/php/register.php on line 18
+[19-Jul-2018 19:14:26 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/acc5d3330cdw/public_html/php/db_operations.php on line 69
+[19-Jul-2018 19:14:26 UTC] PHP Notice:  Undefined index: fname in /home/acc5d3330cdw/public_html/php/register.php on line 18
+[19-Jul-2018 19:14:26 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/acc5d3330cdw/public_html/php/db_operations.php on line 69
+[19-Jul-2018 19:14:28 UTC] PHP Notice:  Undefined index: fname in /home/acc5d3330cdw/public_html/php/register.php on line 18
+[19-Jul-2018 19:14:28 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/acc5d3330cdw/public_html/php/db_operations.php on line 69
+[19-Jul-2018 19:14:28 UTC] PHP Notice:  Undefined index: fname in /home/acc5d3330cdw/public_html/php/register.php on line 18
+[19-Jul-2018 19:14:28 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/acc5d3330cdw/public_html/php/db_operations.php on line 69
+[19-Jul-2018 19:14:28 UTC] PHP Notice:  Undefined index: fname in /home/acc5d3330cdw/public_html/php/register.php on line 18
+[19-Jul-2018 19:14:28 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/acc5d3330cdw/public_html/php/db_operations.php on line 69
+[19-Jul-2018 19:14:28 UTC] PHP Notice:  Undefined index: fname in /home/acc5d3330cdw/public_html/php/register.php on line 18
+[19-Jul-2018 19:14:28 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/acc5d3330cdw/public_html/php/db_operations.php on line 69
+[19-Jul-2018 19:14:29 UTC] PHP Notice:  Undefined index: fname in /home/acc5d3330cdw/public_html/php/register.php on line 18
+[19-Jul-2018 19:14:29 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/acc5d3330cdw/public_html/php/db_operations.php on line 69
+[19-Jul-2018 19:14:39 UTC] PHP Notice:  Undefined index: fname in /home/acc5d3330cdw/public_html/php/register.php on line 18
+[19-Jul-2018 19:14:39 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/acc5d3330cdw/public_html/php/db_operations.php on line 69
+[19-Jul-2018 19:14:41 UTC] PHP Notice:  Undefined index: fname in /home/acc5d3330cdw/public_html/php/register.php on line 18
+[19-Jul-2018 19:14:41 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/acc5d3330cdw/public_html/php/db_operations.php on line 69
+[20-Jul-2018 02:00:49 UTC] PHP Notice:  Undefined index: fname in /home/acc5d3330cdw/public_html/php/register.php on line 18
+[20-Jul-2018 08:10:45 UTC] PHP Notice:  Undefined index: fname in /home/acc5d3330cdw/public_html/php/register.php on line 18
+[20-Jul-2018 08:10:45 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/acc5d3330cdw/public_html/php/db_operations.php on line 69
+[20-Jul-2018 08:10:47 UTC] PHP Notice:  Undefined index: fname in /home/acc5d3330cdw/public_html/php/register.php on line 18
+[20-Jul-2018 08:10:47 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/acc5d3330cdw/public_html/php/db_operations.php on line 69
+[20-Jul-2018 08:10:52 UTC] PHP Notice:  Undefined index: fname in /home/acc5d3330cdw/public_html/php/register.php on line 18
+[20-Jul-2018 08:10:52 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/acc5d3330cdw/public_html/php/db_operations.php on line 69
+[20-Jul-2018 08:10:54 UTC] PHP Notice:  Undefined index: fname in /home/acc5d3330cdw/public_html/php/register.php on line 18
+[20-Jul-2018 08:10:54 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/acc5d3330cdw/public_html/php/db_operations.php on line 69
+[20-Jul-2018 08:10:55 UTC] PHP Notice:  Undefined index: fname in /home/acc5d3330cdw/public_html/php/register.php on line 18
+[20-Jul-2018 08:10:55 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/acc5d3330cdw/public_html/php/db_operations.php on line 69
+[20-Jul-2018 08:10:56 UTC] PHP Notice:  Undefined index: fname in /home/acc5d3330cdw/public_html/php/register.php on line 18
+[20-Jul-2018 08:10:56 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/acc5d3330cdw/public_html/php/db_operations.php on line 69
+[20-Jul-2018 08:10:56 UTC] PHP Notice:  Undefined index: fname in /home/acc5d3330cdw/public_html/php/register.php on line 18
+[20-Jul-2018 08:10:56 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/acc5d3330cdw/public_html/php/db_operations.php on line 69
+[20-Jul-2018 08:10:56 UTC] PHP Notice:  Undefined index: fname in /home/acc5d3330cdw/public_html/php/register.php on line 18
+[20-Jul-2018 08:10:56 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/acc5d3330cdw/public_html/php/db_operations.php on line 69
+[20-Jul-2018 08:10:56 UTC] PHP Notice:  Undefined index: fname in /home/acc5d3330cdw/public_html/php/register.php on line 18
+[20-Jul-2018 08:10:56 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/acc5d3330cdw/public_html/php/db_operations.php on line 69
+[20-Jul-2018 08:11:00 UTC] PHP Notice:  Undefined index: fname in /home/acc5d3330cdw/public_html/php/register.php on line 18
+[20-Jul-2018 08:11:00 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/acc5d3330cdw/public_html/php/db_operations.php on line 69
+[20-Jul-2018 08:11:00 UTC] PHP Notice:  Undefined index: fname in /home/acc5d3330cdw/public_html/php/register.php on line 18
+[20-Jul-2018 08:11:00 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/acc5d3330cdw/public_html/php/db_operations.php on line 69
+[20-Jul-2018 08:11:09 UTC] PHP Notice:  Undefined index: fname in /home/acc5d3330cdw/public_html/php/register.php on line 18
+[20-Jul-2018 08:11:09 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/acc5d3330cdw/public_html/php/db_operations.php on line 69
+[20-Jul-2018 08:11:10 UTC] PHP Notice:  Undefined index: fname in /home/acc5d3330cdw/public_html/php/register.php on line 18
+[20-Jul-2018 08:11:10 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/acc5d3330cdw/public_html/php/db_operations.php on line 69
+[20-Jul-2018 08:11:10 UTC] PHP Notice:  Undefined index: fname in /home/acc5d3330cdw/public_html/php/register.php on line 18
+[20-Jul-2018 08:11:10 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/acc5d3330cdw/public_html/php/db_operations.php on line 69
+[20-Jul-2018 08:11:10 UTC] PHP Notice:  Undefined index: fname in /home/acc5d3330cdw/public_html/php/register.php on line 18
+[20-Jul-2018 08:11:10 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/acc5d3330cdw/public_html/php/db_operations.php on line 69
+[20-Jul-2018 08:14:10 UTC] PHP Notice:  Undefined index: fname in /home/acc5d3330cdw/public_html/php/register.php on line 18
+[20-Jul-2018 08:14:10 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/acc5d3330cdw/public_html/php/db_operations.php on line 69
+[20-Jul-2018 08:14:12 UTC] PHP Notice:  Undefined index: fname in /home/acc5d3330cdw/public_html/php/register.php on line 18
+[20-Jul-2018 08:14:12 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/acc5d3330cdw/public_html/php/db_operations.php on line 69
+[20-Jul-2018 08:14:14 UTC] PHP Notice:  Undefined index: fname in /home/acc5d3330cdw/public_html/php/register.php on line 18
+[20-Jul-2018 08:14:14 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/acc5d3330cdw/public_html/php/db_operations.php on line 69
+[20-Jul-2018 08:14:14 UTC] PHP Notice:  Undefined index: fname in /home/acc5d3330cdw/public_html/php/register.php on line 18
+[20-Jul-2018 08:14:14 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/acc5d3330cdw/public_html/php/db_operations.php on line 69
+[20-Jul-2018 08:14:14 UTC] PHP Notice:  Undefined index: fname in /home/acc5d3330cdw/public_html/php/register.php on line 18
+[20-Jul-2018 08:14:14 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/acc5d3330cdw/public_html/php/db_operations.php on line 69
+[20-Jul-2018 08:14:14 UTC] PHP Notice:  Undefined index: fname in /home/acc5d3330cdw/public_html/php/register.php on line 18
+[20-Jul-2018 08:14:14 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/acc5d3330cdw/public_html/php/db_operations.php on line 69
+[20-Jul-2018 08:14:15 UTC] PHP Notice:  Undefined index: fname in /home/acc5d3330cdw/public_html/php/register.php on line 18
+[20-Jul-2018 08:14:15 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/acc5d3330cdw/public_html/php/db_operations.php on line 69
+[20-Jul-2018 08:14:15 UTC] PHP Notice:  Undefined index: fname in /home/acc5d3330cdw/public_html/php/register.php on line 18
+[20-Jul-2018 08:14:15 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/acc5d3330cdw/public_html/php/db_operations.php on line 69
+[20-Jul-2018 08:14:15 UTC] PHP Notice:  Undefined index: fname in /home/acc5d3330cdw/public_html/php/register.php on line 18
+[20-Jul-2018 08:14:15 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/acc5d3330cdw/public_html/php/db_operations.php on line 69
+[20-Jul-2018 08:14:15 UTC] PHP Notice:  Undefined index: fname in /home/acc5d3330cdw/public_html/php/register.php on line 18
+[20-Jul-2018 08:14:15 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/acc5d3330cdw/public_html/php/db_operations.php on line 69
+[20-Jul-2018 08:14:15 UTC] PHP Notice:  Undefined index: fname in /home/acc5d3330cdw/public_html/php/register.php on line 18
+[20-Jul-2018 08:14:15 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/acc5d3330cdw/public_html/php/db_operations.php on line 69
+[20-Jul-2018 08:14:16 UTC] PHP Notice:  Undefined index: fname in /home/acc5d3330cdw/public_html/php/register.php on line 18
+[20-Jul-2018 08:14:16 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/acc5d3330cdw/public_html/php/db_operations.php on line 69
+[20-Jul-2018 08:14:16 UTC] PHP Notice:  Undefined index: fname in /home/acc5d3330cdw/public_html/php/register.php on line 18
+[20-Jul-2018 08:14:16 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/acc5d3330cdw/public_html/php/db_operations.php on line 69
+[20-Jul-2018 08:14:16 UTC] PHP Notice:  Undefined index: fname in /home/acc5d3330cdw/public_html/php/register.php on line 18
+[20-Jul-2018 08:14:16 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/acc5d3330cdw/public_html/php/db_operations.php on line 69
+[20-Jul-2018 08:14:16 UTC] PHP Notice:  Undefined index: fname in /home/acc5d3330cdw/public_html/php/register.php on line 18
+[20-Jul-2018 08:14:16 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/acc5d3330cdw/public_html/php/db_operations.php on line 69
+[20-Jul-2018 08:14:17 UTC] PHP Notice:  Undefined index: fname in /home/acc5d3330cdw/public_html/php/register.php on line 18
+[20-Jul-2018 08:14:17 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/acc5d3330cdw/public_html/php/db_operations.php on line 69
+[20-Jul-2018 08:14:17 UTC] PHP Notice:  Undefined index: fname in /home/acc5d3330cdw/public_html/php/register.php on line 18
+[20-Jul-2018 08:14:17 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/acc5d3330cdw/public_html/php/db_operations.php on line 69
+[20-Jul-2018 08:14:17 UTC] PHP Notice:  Undefined index: fname in /home/acc5d3330cdw/public_html/php/register.php on line 18
+[20-Jul-2018 08:14:17 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/acc5d3330cdw/public_html/php/db_operations.php on line 69
+[20-Jul-2018 08:14:18 UTC] PHP Notice:  Undefined index: fname in /home/acc5d3330cdw/public_html/php/register.php on line 18
+[20-Jul-2018 08:14:18 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/acc5d3330cdw/public_html/php/db_operations.php on line 69
+[20-Jul-2018 08:14:19 UTC] PHP Notice:  Undefined index: fname in /home/acc5d3330cdw/public_html/php/register.php on line 18
+[20-Jul-2018 08:14:19 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/acc5d3330cdw/public_html/php/db_operations.php on line 69
+[20-Jul-2018 08:14:19 UTC] PHP Notice:  Undefined index: fname in /home/acc5d3330cdw/public_html/php/register.php on line 18
+[20-Jul-2018 08:14:19 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/acc5d3330cdw/public_html/php/db_operations.php on line 69
+[20-Jul-2018 08:14:19 UTC] PHP Notice:  Undefined index: fname in /home/acc5d3330cdw/public_html/php/register.php on line 18
+[20-Jul-2018 08:14:19 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/acc5d3330cdw/public_html/php/db_operations.php on line 69
+[20-Jul-2018 08:14:22 UTC] PHP Notice:  Undefined index: fname in /home/acc5d3330cdw/public_html/php/register.php on line 18
+[20-Jul-2018 08:14:22 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/acc5d3330cdw/public_html/php/db_operations.php on line 69
+[20-Jul-2018 08:14:22 UTC] PHP Notice:  Undefined index: fname in /home/acc5d3330cdw/public_html/php/register.php on line 18
+[20-Jul-2018 08:14:22 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/acc5d3330cdw/public_html/php/db_operations.php on line 69
+[20-Jul-2018 08:14:22 UTC] PHP Notice:  Undefined index: fname in /home/acc5d3330cdw/public_html/php/register.php on line 18
+[20-Jul-2018 08:14:22 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/acc5d3330cdw/public_html/php/db_operations.php on line 69
+[20-Jul-2018 08:14:22 UTC] PHP Notice:  Undefined index: fname in /home/acc5d3330cdw/public_html/php/register.php on line 18
+[20-Jul-2018 08:14:22 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/acc5d3330cdw/public_html/php/db_operations.php on line 69
+[20-Jul-2018 08:14:22 UTC] PHP Notice:  Undefined index: fname in /home/acc5d3330cdw/public_html/php/register.php on line 18
+[20-Jul-2018 08:14:22 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/acc5d3330cdw/public_html/php/db_operations.php on line 69
+[20-Jul-2018 08:14:22 UTC] PHP Notice:  Undefined index: fname in /home/acc5d3330cdw/public_html/php/register.php on line 18
+[20-Jul-2018 08:14:22 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/acc5d3330cdw/public_html/php/db_operations.php on line 69
+[20-Jul-2018 08:14:27 UTC] PHP Notice:  Undefined index: fname in /home/acc5d3330cdw/public_html/php/register.php on line 18
+[20-Jul-2018 08:14:27 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/acc5d3330cdw/public_html/php/db_operations.php on line 69
+[20-Jul-2018 08:14:34 UTC] PHP Notice:  Undefined index: fname in /home/acc5d3330cdw/public_html/php/register.php on line 18
+[20-Jul-2018 08:14:34 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/acc5d3330cdw/public_html/php/db_operations.php on line 69
+[20-Jul-2018 08:14:34 UTC] PHP Notice:  Undefined index: fname in /home/acc5d3330cdw/public_html/php/register.php on line 18
+[20-Jul-2018 08:14:34 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/acc5d3330cdw/public_html/php/db_operations.php on line 69
+[20-Jul-2018 08:14:35 UTC] PHP Notice:  Undefined index: fname in /home/acc5d3330cdw/public_html/php/register.php on line 18
+[20-Jul-2018 08:14:35 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/acc5d3330cdw/public_html/php/db_operations.php on line 69
+[20-Jul-2018 08:14:37 UTC] PHP Notice:  Undefined index: fname in /home/acc5d3330cdw/public_html/php/register.php on line 18
+[20-Jul-2018 08:14:37 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/acc5d3330cdw/public_html/php/db_operations.php on line 69
+[20-Jul-2018 08:14:38 UTC] PHP Notice:  Undefined index: fname in /home/acc5d3330cdw/public_html/php/register.php on line 18
+[20-Jul-2018 08:14:38 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/acc5d3330cdw/public_html/php/db_operations.php on line 69
+[20-Jul-2018 08:14:38 UTC] PHP Notice:  Undefined index: fname in /home/acc5d3330cdw/public_html/php/register.php on line 18
+[20-Jul-2018 08:14:38 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/acc5d3330cdw/public_html/php/db_operations.php on line 69
+[20-Jul-2018 08:14:38 UTC] PHP Notice:  Undefined index: fname in /home/acc5d3330cdw/public_html/php/register.php on line 18
+[20-Jul-2018 08:14:38 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/acc5d3330cdw/public_html/php/db_operations.php on line 69
+[20-Jul-2018 08:14:39 UTC] PHP Notice:  Undefined index: fname in /home/acc5d3330cdw/public_html/php/register.php on line 18
+[20-Jul-2018 08:14:39 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/acc5d3330cdw/public_html/php/db_operations.php on line 69
+[20-Jul-2018 08:14:39 UTC] PHP Notice:  Undefined index: fname in /home/acc5d3330cdw/public_html/php/register.php on line 18
+[20-Jul-2018 08:14:39 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/acc5d3330cdw/public_html/php/db_operations.php on line 69
+[20-Jul-2018 08:14:39 UTC] PHP Notice:  Undefined index: fname in /home/acc5d3330cdw/public_html/php/register.php on line 18
+[20-Jul-2018 08:14:39 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/acc5d3330cdw/public_html/php/db_operations.php on line 69
+[20-Jul-2018 08:14:39 UTC] PHP Notice:  Undefined index: fname in /home/acc5d3330cdw/public_html/php/register.php on line 18
+[20-Jul-2018 08:14:39 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/acc5d3330cdw/public_html/php/db_operations.php on line 69
+[20-Jul-2018 08:14:40 UTC] PHP Notice:  Undefined index: fname in /home/acc5d3330cdw/public_html/php/register.php on line 18
+[20-Jul-2018 08:14:40 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/acc5d3330cdw/public_html/php/db_operations.php on line 69
+[20-Jul-2018 08:14:41 UTC] PHP Notice:  Undefined index: fname in /home/acc5d3330cdw/public_html/php/register.php on line 18
+[20-Jul-2018 08:14:41 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/acc5d3330cdw/public_html/php/db_operations.php on line 69
+[20-Jul-2018 08:14:50 UTC] PHP Notice:  Undefined index: fname in /home/acc5d3330cdw/public_html/php/register.php on line 18
+[20-Jul-2018 08:14:50 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/acc5d3330cdw/public_html/php/db_operations.php on line 69
+[20-Jul-2018 08:15:59 UTC] PHP Notice:  Undefined index: fname in /home/acc5d3330cdw/public_html/php/register.php on line 18
+[20-Jul-2018 08:15:59 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/acc5d3330cdw/public_html/php/db_operations.php on line 69
+[20-Jul-2018 08:16:00 UTC] PHP Notice:  Undefined index: fname in /home/acc5d3330cdw/public_html/php/register.php on line 18
+[20-Jul-2018 08:16:00 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/acc5d3330cdw/public_html/php/db_operations.php on line 69
+[20-Jul-2018 08:16:01 UTC] PHP Notice:  Undefined index: fname in /home/acc5d3330cdw/public_html/php/register.php on line 18
+[20-Jul-2018 08:16:01 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/acc5d3330cdw/public_html/php/db_operations.php on line 69
+[20-Jul-2018 08:16:01 UTC] PHP Notice:  Undefined index: fname in /home/acc5d3330cdw/public_html/php/register.php on line 18
+[20-Jul-2018 08:16:01 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/acc5d3330cdw/public_html/php/db_operations.php on line 69
+[20-Jul-2018 08:39:11 UTC] PHP Notice:  Undefined index: fname in /home/acc5d3330cdw/public_html/php/register.php on line 18
+[20-Jul-2018 08:39:16 UTC] PHP Notice:  Undefined index: fname in /home/acc5d3330cdw/public_html/php/register.php on line 18
+[20-Jul-2018 09:23:02 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/acc5d3330cdw/public_html/php/db_operations.php on line 69
+[20-Jul-2018 10:53:31 UTC] PHP Notice:  Undefined index: fname in /home/acc5d3330cdw/public_html/php/register.php on line 18
+[20-Jul-2018 11:48:25 UTC] PHP Notice:  Undefined index: fname in /home/acc5d3330cdw/public_html/php/register.php on line 18
+[20-Jul-2018 12:37:46 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/acc5d3330cdw/public_html/php/db_operations.php on line 69
+[20-Jul-2018 12:37:55 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/acc5d3330cdw/public_html/php/db_operations.php on line 69
+[20-Jul-2018 12:38:05 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/acc5d3330cdw/public_html/php/db_operations.php on line 69
+[20-Jul-2018 12:38:24 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/acc5d3330cdw/public_html/php/db_operations.php on line 69
+[20-Jul-2018 12:38:34 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/acc5d3330cdw/public_html/php/db_operations.php on line 69
+[20-Jul-2018 12:38:51 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/acc5d3330cdw/public_html/php/db_operations.php on line 69
+[20-Jul-2018 12:39:16 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/acc5d3330cdw/public_html/php/db_operations.php on line 69
+[20-Jul-2018 12:41:07 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/acc5d3330cdw/public_html/php/db_operations.php on line 69
+[20-Jul-2018 12:53:05 UTC] PHP Notice:  Undefined index: fname in /home/acc5d3330cdw/public_html/php/register.php on line 18
+[20-Jul-2018 14:18:46 UTC] PHP Notice:  Undefined index: fname in /home/acc5d3330cdw/public_html/php/register.php on line 18
+[20-Jul-2018 14:30:44 UTC] PHP Notice:  Undefined index: fname in /home/acc5d3330cdw/public_html/php/register.php on line 18
+[20-Jul-2018 14:33:46 UTC] PHP Notice:  Undefined index: fname in /home/acc5d3330cdw/public_html/php/register.php on line 18
+[20-Jul-2018 16:24:42 UTC] PHP Notice:  Undefined index: fname in /home/acc5d3330cdw/public_html/php/register.php on line 18
+[21-Jul-2018 07:39:54 UTC] PHP Notice:  Undefined index: fname in /home/acc5d3330cdw/public_html/php/register.php on line 18
+[21-Jul-2018 07:58:03 UTC] PHP Notice:  Undefined index: fname in /home/acc5d3330cdw/public_html/php/register.php on line 18
+[21-Jul-2018 08:01:14 UTC] PHP Notice:  Undefined index: fname in /home/acc5d3330cdw/public_html/php/register.php on line 18
+[21-Jul-2018 10:37:58 UTC] PHP Notice:  Undefined index: htno in /home/acc5d3330cdw/public_html/php/register.php on line 14
+[21-Jul-2018 10:37:58 UTC] PHP Notice:  Undefined index: password in /home/acc5d3330cdw/public_html/php/register.php on line 16
+[21-Jul-2018 10:37:58 UTC] PHP Notice:  Undefined index: fname in /home/acc5d3330cdw/public_html/php/register.php on line 18
+[21-Jul-2018 10:37:58 UTC] PHP Notice:  Undefined index: mobile in /home/acc5d3330cdw/public_html/php/register.php on line 20
+[21-Jul-2018 10:37:58 UTC] PHP Notice:  Undefined index: branch in /home/acc5d3330cdw/public_html/php/register.php on line 22
+[21-Jul-2018 10:37:58 UTC] PHP Notice:  Undefined index: year in /home/acc5d3330cdw/public_html/php/register.php on line 24
+[21-Jul-2018 10:37:58 UTC] PHP Notice:  Undefined index: email in /home/acc5d3330cdw/public_html/php/register.php on line 26
+[21-Jul-2018 10:37:58 UTC] PHP Notice:  Undefined index: aggregate in /home/acc5d3330cdw/public_html/php/register.php on line 28
+[21-Jul-2018 10:37:58 UTC] PHP Notice:  Undefined index: about in /home/acc5d3330cdw/public_html/php/register.php on line 30
+[21-Jul-2018 10:37:58 UTC] PHP Notice:  Undefined index: TE01 in /home/acc5d3330cdw/public_html/php/register.php on line 86
+[21-Jul-2018 10:37:58 UTC] PHP Notice:  Undefined index: TE02 in /home/acc5d3330cdw/public_html/php/register.php on line 86
+[21-Jul-2018 10:37:58 UTC] PHP Notice:  Undefined index: TE03 in /home/acc5d3330cdw/public_html/php/register.php on line 86
+[21-Jul-2018 10:37:58 UTC] PHP Notice:  Undefined index: TE04 in /home/acc5d3330cdw/public_html/php/register.php on line 86
+[21-Jul-2018 10:37:58 UTC] PHP Notice:  Undefined index: TE05 in /home/acc5d3330cdw/public_html/php/register.php on line 86
+[21-Jul-2018 10:37:58 UTC] PHP Notice:  Undefined index: TE06 in /home/acc5d3330cdw/public_html/php/register.php on line 86
+[21-Jul-2018 10:37:58 UTC] PHP Notice:  Undefined index: TE07 in /home/acc5d3330cdw/public_html/php/register.php on line 86
+[21-Jul-2018 10:37:58 UTC] PHP Notice:  Undefined index: TE08 in /home/acc5d3330cdw/public_html/php/register.php on line 86
+[21-Jul-2018 10:37:58 UTC] PHP Notice:  Undefined index: TE09 in /home/acc5d3330cdw/public_html/php/register.php on line 86
+[21-Jul-2018 10:37:58 UTC] PHP Notice:  Undefined index: AR01 in /home/acc5d3330cdw/public_html/php/register.php on line 98
+[21-Jul-2018 10:37:58 UTC] PHP Notice:  Undefined index: AR02 in /home/acc5d3330cdw/public_html/php/register.php on line 98
+[21-Jul-2018 10:37:58 UTC] PHP Notice:  Undefined index: AR03 in /home/acc5d3330cdw/public_html/php/register.php on line 98
+[21-Jul-2018 10:37:58 UTC] PHP Notice:  Undefined index: AR04 in /home/acc5d3330cdw/public_html/php/register.php on line 98
+[21-Jul-2018 10:37:58 UTC] PHP Notice:  Undefined index: PA01 in /home/acc5d3330cdw/public_html/php/register.php on line 110
+[21-Jul-2018 10:37:58 UTC] PHP Notice:  Undefined index: PA02 in /home/acc5d3330cdw/public_html/php/register.php on line 110
+[21-Jul-2018 10:37:58 UTC] PHP Notice:  Undefined index: PA03 in /home/acc5d3330cdw/public_html/php/register.php on line 110
+[21-Jul-2018 10:37:58 UTC] PHP Notice:  Undefined index: PA04 in /home/acc5d3330cdw/public_html/php/register.php on line 110
+[21-Jul-2018 10:37:58 UTC] PHP Notice:  Undefined index: PA05 in /home/acc5d3330cdw/public_html/php/register.php on line 110
+[21-Jul-2018 10:37:58 UTC] PHP Notice:  Undefined index: PA06 in /home/acc5d3330cdw/public_html/php/register.php on line 110
+[21-Jul-2018 10:37:58 UTC] PHP Notice:  Undefined index: PA07 in /home/acc5d3330cdw/public_html/php/register.php on line 110
+[21-Jul-2018 10:37:58 UTC] PHP Notice:  Undefined index: PA08 in /home/acc5d3330cdw/public_html/php/register.php on line 110
+[21-Jul-2018 10:37:58 UTC] PHP Notice:  Undefined index: PA09 in /home/acc5d3330cdw/public_html/php/register.php on line 110
+[21-Jul-2018 10:37:58 UTC] PHP Notice:  Undefined index: SO01 in /home/acc5d3330cdw/public_html/php/register.php on line 122
+[21-Jul-2018 10:37:58 UTC] PHP Notice:  Undefined index: SO02 in /home/acc5d3330cdw/public_html/php/register.php on line 122
+[21-Jul-2018 10:37:58 UTC] PHP Notice:  Undefined index: CU01 in /home/acc5d3330cdw/public_html/php/register.php on line 136
+[21-Jul-2018 10:37:58 UTC] PHP Notice:  Undefined index: CU02 in /home/acc5d3330cdw/public_html/php/register.php on line 136
+[21-Jul-2018 10:37:58 UTC] PHP Notice:  Undefined index: CU03 in /home/acc5d3330cdw/public_html/php/register.php on line 136
+[21-Jul-2018 10:37:58 UTC] PHP Notice:  Undefined index: CU04 in /home/acc5d3330cdw/public_html/php/register.php on line 136

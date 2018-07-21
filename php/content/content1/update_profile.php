@@ -16,6 +16,8 @@
 
     $email=$_POST['email'];
 
+$branch = $_POST['branch'];
+
     // $aggregate=$_POST['aggregate'];
 
     // $about=$_POST['about'];
@@ -53,7 +55,7 @@
 
     }
 
-    $q = 'UPDATE red_ants_user_information SET `name`="'.$name.'",`mobile`="'.$mobile.'",`year`="'.$year.'",`mail_id`="'.$email.'" WHERE user_id="'.$user_id.'"';
+    $q = 'UPDATE red_ants_user_information SET `name`=UPPER("'.$name.'"),`mobile`="'.$mobile.'",`year`="'.$year.'",`branch`=UPPER("'.$branch.'"),`mail_id`="'.$email.'" WHERE user_id="'.$user_id.'"';
 
     $dbobj->sqlQury($q); 
 

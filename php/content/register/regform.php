@@ -611,13 +611,10 @@ iframe {
             <span class="focus-input100" data-placeholder="EMAIL*"></span>
           </div>
 
-        </span>
-        <span class="input input--hoshi" myFont  >
+        <span class="input input--hoshi" >
           <label class="input__label input__label--hoshi input__label--hoshi-color-3">
             <span class="input__label-content input__label-content--hoshi" >Branch * </span>
           </label><br>
-
-
 
           <select class="input__field input__field--hoshi" type="text" name="branch" style="background-color: black" >
             <option value="">--Select your Branch--</option>
@@ -725,11 +722,29 @@ iframe {
           </button>
           
 </div>
+<div class="cta">
+<script>function sin(){
+
+	var x = confirm("ARE YOU SURE THAT YOU HAVE AN ACCCOUNT");
+	if(x){
+
+		window.top.location="index.php";
+	}
+}
+</script>
+
+          <button class="btn btn-primary pull-left" onclick="sin()"style="background-color:#ff5500;">
+            SIGNIN          </button>
+          
+</div>
+
 
 </div>
-    </div>           
+    </div>      
+     
      
         </form>
+
  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"> </script>
         <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
         <script src="vendor/jquery.cookie/jquery.cookie.js"> </script>
