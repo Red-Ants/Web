@@ -1,8 +1,8 @@
 function rsetpwd(){
 
     var dataList = {
-      'htno': document.forms['register']['htno'].value,
-      'email': document.forms['register']['email'].value
+      'htno': document.forms['resetpassword']['htno'].value,
+      'email': document.forms['resetpassword']['email'].value
   };
   
       
@@ -21,7 +21,7 @@ function rsetpwd(){
 function validate_regform(){
    
 
-    var htno = document.forms['register']['htno']
+    var htno = document.forms['resetpassword']['htno']
 
 
 
@@ -45,7 +45,7 @@ function validate_regform(){
 
 
 
-    var email= document.forms['register']['email']
+    var email= document.forms['resetpassword']['email']
 
     if(email.value==""){
 
@@ -56,7 +56,7 @@ function validate_regform(){
         return false
 
     }
-    else if(email.value.match(/^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,3})$/)==null){
+    else if(email.value.match(/^[_A-Za-z0-9-]+(\.[_A-Za-z0-9-]+)*@[A-Za-z0-9-]+(\.[A-Za-z0-9-]+)*(\.[A-Za-z]{2,3})$/)==null){
         
         alert("INCORRECT EMAIL")
 

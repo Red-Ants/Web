@@ -58,7 +58,7 @@
   <script src="js/jquery-3.3.1.min.js"></script>
 
   <script>
-      var abc = "php/content/register/regvalidation.js?v=";
+      var abc = "php/content/resetpassword/regvalidation.js?v=";
       // var d = new Date();
       // var n = d.getSeconds();
       var n = new Date().getTime();
@@ -573,7 +573,7 @@ iframe {
 <br>      
   
 <br>
-	<form class="login100-form validate-form" onsubmit="return false" name="register">
+	<form class="login100-form validate-form" onsubmit="return false" name="resetpassword">
          
        
 

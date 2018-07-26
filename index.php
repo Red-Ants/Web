@@ -667,9 +667,9 @@ iframe {
             <input class="input100" type="password" name="password">
             <span class="focus-input100" data-placeholder="Password*"></span>
           </div>
-		  &nbsp; <a href ="#reset" onclick="resetpwd()"style="color:blue;text-alig:cen">
+		 <!-- &nbsp; <a href ="#reset" onclick="resetpwd()"style="color:blue;text-alig:cen">
            Forgot password ?
-         </a>
+         </a>-->
 
           <div class="container-login100-form-btn">
           <div class="cta">

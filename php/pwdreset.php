@@ -39,7 +39,7 @@ if(isset($_POST['loader'])){
 
     if($row){
 
-         if($email!=$row["mail_id"]){
+         if(LOWER($email)!=$row["mail_id"]){
 			echo "<script>
 
        alert('MAIL ID GIVEN IS INCORRECT FOR THE HT.NO');

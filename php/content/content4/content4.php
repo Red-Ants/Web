@@ -82,6 +82,9 @@
 
           document.getElementById('cate').style=""
 
+        if(x==4)
+          getdetails()
+
   }
 
 
@@ -173,6 +176,14 @@
                         <label class="" for="club">
 
                                 <span class="">Club</span>
+
+                        </label><br>
+
+                        <input type="radio" value="4" id="faculty" name="cat" onchange="selection(4)">
+
+                        <label class="" for="faculty">
+
+                                <span class="">Faculty</span>
 
                         </label><br>
 
@@ -511,7 +522,7 @@
 
           label = "branch"
 
-      }else{
+      }else if(cat.value==3){
 
           val = document.forms["reports"]["cate"].value
 
@@ -522,6 +533,28 @@
           val = val.toUpperCase()
 
           dat += '&cate='+val
+
+      }
+      else{
+
+
+
+      $.ajax({
+
+              type:'post',
+
+              url:"php/content/content4/freports.php",
+
+              success:function(msg){
+
+                  $('#temp').html(msg);
+
+              }
+
+
+
+          });
+          return;
 
       }
 
