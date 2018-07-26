@@ -1,8 +1,4 @@
-function regfaculty(){
-    var vals = {
-        "user_id":document.forms['regfaculty']['user_id'].value
-    };
-
+function regfaculty(vals){
     $.ajax({
         type:"POST",
         url:'php/content/content2/regfaculty.php',
@@ -18,6 +14,7 @@ function regfaculty(){
 }
 
 function check(){
+	var vals = []
     var user_id = document.forms["regfaculty"]["user_id"]
 
     if(user_id.value==""){
@@ -25,8 +22,26 @@ function check(){
         user_id.focus()
         return false
     }
+	var role = document.forms['regfaculty']['role']
+	var pak = document.getElementById('abc')
+	if(pak.style!="display:none"){
+		if(role.value==""){
+			alert("PLEASE SELECT FACULTY ROLE")
+			return false
+		}
+		vals = {
+        "user_id":document.forms['regfaculty']['user_id'].value,
+		"role":document.forms['regfaculty']['role'].value
+		};
+	}
+	else{
+		vals = {
+        "user_id":document.forms['regfaculty']['user_id'].value,
+		"role":3
+		};
+	}
 
-    regfaculty()
+    regfaculty(vals)
 
     return false
 

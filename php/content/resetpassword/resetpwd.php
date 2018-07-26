@@ -1,6 +1,9 @@
-<?php session_start();
-session_unset();
+<?php
+    session_start();
+
+    session_unset();
 ?>
+
 <html>
     <head>
         <title>
@@ -47,13 +50,32 @@ session_unset();
     <link rel="shortcut icon" href="favicon.png">
     <!-- Tweaks for older IEs--><!--[if lt IE 9]>
         <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>-->
-        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
            <!-- Stylesheets -->
 
   <link rel="stylesheet" href="css/set1.css">
   <script src="js/jquery-3.3.1.min.js"></script>
 
+  <script>
+      var abc = "php/content/register/regvalidation.js?v=";
+      // var d = new Date();
+      // var n = d.getSeconds();
+      var n = new Date().getTime();
+      abc += n;
+
+      var scripta = document.createElement('script');
+
+      console.log(scripta);
+
+      scripta.src = ""+abc+"";
+
+      var main = document.getElementById("main-wrapper");
+
+      main.appendChild(scripta);
+  
+  </script>
+  
 
 
 <style>
@@ -63,104 +85,23 @@ body {
   background-repeat: no-repeat;
   background-size: 750px 420px;
   background-position: left;
-  
  }
 </style>
 
     </head>
-    <body id="mainx">
+    <body>
 
-    <script>
-            $(function(){
-	$.ajax({
-      type:'POST',
-      url:'php/register.php',
-      data:"loader=works",
-	error:function(msg){
-		alert("BAD INTERNET CONNECTION --> RELOADING...");
-		reload();
-	},
-      success:function(msg){
-        $('#temp').html(msg);
-      }
-    });
-  
-});
-            function loadregister(){
-$.ajax({
-      type:'POST',
-      url:'php/register.php',
-      data:"loader=works",
-	error:function(msg){
-		alert("BAD INTERNET CONNECTION --> RELOADING...");
-		reload();
-	},
-      success:function(msg){
-        $('#temp').html(msg);
-      }
-    });
-
-              $("#main-wrapper").load("php/content/register/regform.php");
-
-
-            }
-			function resetpwd(){
-$.ajax({
-      type:'POST',
-      url:'php/register.php',
-      data:"loader=works",
-	error:function(msg){
-		alert("BAD INTERNET CONNECTION --> RELOADING...");
-		reload();
-	},
-      success:function(msg){
-        $('#temp').html(msg);
-      }
-    });
-
-              $("#main-wrapper").load("php/content/resetpassword/resetpwd.php");
-
-
-            }
-          
-          </script>
-  
-        
        
 <div id="main-wrapper">
-<script>
-		var myIndex = 0;
-		setTimeout(function(){
-			carousel(1);
-		},2000);
-		var aimg = ['img/ralogo.png','img/slide1.jpg'];
-		var len = aimg.length;
-		function carousel(x) {
-		var i = parseInt(x) % (len);
-    
-		document.getElementById('homebody').src = aimg[i]//'background-image : url('+aimg[i]+');background-repeat: no-repeat;background-size: cover;';
-		x = i;
-		setTimeout(function(){
-			carousel(x+1)}, 10000); // Change image every 5 seconds
-		}
 
-    var wdth = screen.width
-    var hgt = screen.height
-</script>
 
           
   <div class="container-fluid">
         <div class="row">
-         <div class="image col-lg-6 order-1 order-lg-2" style="top: -70">
-         <img src="img/ralogo.png" id="homebody" alt="..." class="img-fluid">
+         <div class="image col-lg-6 order-1 order-lg-2" style="top: 100"><img src="img/ralogo.png" alt="..." class="img-fluid">
+<br><br><br><br><br>         </div>
 
-  </div>
-  <div class="image col-lg-1 order-1 order-lg-2" style="top: -70">
-
-  </div>
-
-
-            <div class="text col-lg-4 order-2 order-lg-2">
+            <div class="text col-lg-5 order-2 order-lg-2">
 
 <style type="text/css">
   
@@ -171,27 +112,6 @@ $.ajax({
 [ FONT ]*/
 
 
-
-@font-face {
-  font-family: Poppins-Medium;
-  src: url('../fonts/poppins/Poppins-Medium.ttf'); 
-}
-
-@font-face {
-  font-family: Poppins-Bold;
-  src: url('../fonts/poppins/Poppins-Bold.ttf'); 
-}
-
-@font-face {
-  font-family: Poppins-SemiBold;
-  src: url('../fonts/poppins/Poppins-SemiBold.ttf'); 
-}
-
-
-
-
-/*//////////////////////////////////////////////////////////////////
-[ RESTYLE TAG ]*/
 
 * {
   margin: 0px; 
@@ -303,14 +223,13 @@ iframe {
 /*//////////////////////////////////////////////////////////////////
 [ Utility ]*/
 .txt1 {
-  font-family: Poppins-Regular;
+
   font-size: 13px;
   color: #666666;
   line-height: 1.5;
 }
 
-.txt2 {
-  font-family: Poppins-Regular;
+
   font-size: 13px;
   color: #333333;
   line-height: 1.5;
@@ -646,56 +565,77 @@ iframe {
 
 
 
+
+
 </style>
 
 <br>
 <br>      
-     <div style="right: px" >    <h3 style="color: white"> <strong style="color: red">LOG</strong>IN</h3></div>
+  
 <br>
-	<form class="login100-form validate-form" method="post" action="php/login.php">
-        
+	<form class="login100-form validate-form" onsubmit="return false" name="register">
+         
+       
 
-          <div class="wrap-input100 validate-input">
-            <input class="input100" type="text" name="user_id">
-            <span class="focus-input100" data-placeholder="HALLTICKET NO.*"></span>
-          </div>
-
-          <div class="wrap-input100 validate-input" data-validate="Enter password">
+        <div class="col-sm-8 md-12  right-side right " style="color: red">
+                 <div style="right: px" >    <h3 style="color: white"> <strong style="color: red">RESET</strong>PASSWORD</h3></div>
+                 
+     <br><br>
+      <div class="wrap-input100 validate-input" data-validate="HALLTICKET NO">
             <span class="btn-show-pass">
-              <i class="zmdi zmdi-eye"></i>
+        
             </span>
-            <input class="input100" type="password" name="password">
-            <span class="focus-input100" data-placeholder="Password*"></span>
+            <input class="input100" type="text" name="htno">
+            <span class="focus-input100" data-placeholder="HALLTICKET NO*"></span>
           </div>
-		  &nbsp; <a href ="#reset" onclick="resetpwd()"style="color:blue;text-alig:cen">
-           Forgot password ?
-         </a>
+          <div class="wrap-input100 validate-input" data-validate = "Valid email is: a@b.c">
+            <input class="input100" type="text" name="email">
+            <span class="focus-input100" data-placeholder="EMAIL*"></span>
+          </div>
 
-          <div class="container-login100-form-btn">
-          <div class="cta">
-          <button class="btn btn-primary pull-left" onclick="reg()" style="background-color:#ff5500;" type="submit">
-       LOGIN
+  
+    </div>
+    <div id="temp"></div>
+<script>
+
+
+</script>
+        <div class="cta">
+          <button class="btn btn-primary pull-left" onclick="validate_regform()" style="background-color:#ff5500;" type="submit">
+            RESET&nbsp;&nbsp;&nbsp;
           </button>
-          </div>
-          &nbsp; <br><br>
+          
+</div>
+<div class="cta">
+<script>function sin(){
 
+	var x = confirm("HOPE YOU HAVE CHANGED YOUR MIND");
+	if(x){
+
+		window.top.location="index.php";
+	}
+}
+</script>
+
+          <button class="btn btn-primary pull-left" onclick="sin()"style="background-color:#ff5500;">
+            SIGNIN          </button>
+          
+</div>
+
+
+</div>
+    </div>      
+     
      
         </form>
 
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"> </script>
+        <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+        <script src="vendor/jquery.cookie/jquery.cookie.js"> </script>
+        <script src="vendor/owl.carousel/owl.carousel.min.js"></script>
+        <script src="js/front.js"></script>
 
-        </div>
-          <div>
-          <div class="container-login100-form-btn " >
-        <button class="btn btn-primary pull-left" style="background-color:#ff5500;" onclick="loadregister()">
-            REGISTER NOW
-          </button>
-          </div>
-  </div>
-  <div>
-       
-        <!-- Javascript files-->
         <!--===============================================================================================-->
-  
 <!--===============================================================================================-->
   <script src="log/vendor/animsition/js/animsition.min.js"></script>
 <!--===============================================================================================-->
@@ -710,16 +650,16 @@ iframe {
   <script src="log/vendor/countdowntime/countdowntime.js"></script>
 <!--===============================================================================================-->
   <script src="log/js/main.js"></script>
-        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID.-->
-        <!---->
         <script>
-          (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-          function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-          e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-          e.src='//www.google-analytics.com/analytics.js';
-          r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-          ga('create','UA-XXXXX-X');ga('send','pageview');
-        </script>
+            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+            e.src='//www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+            ga('create','UA-XXXXX-X');ga('send','pageview');
+          </script>
+
+  
+        </div>
+        </div>
         
-    </body>
-</html>

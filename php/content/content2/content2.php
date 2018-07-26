@@ -8,9 +8,23 @@ else{
         echo "<script>window.top.location='index.php'</script>";
     }
 }
+if(isset($_SESSION['role'])){
+	if($_SESSION['role']==1){
+		echo "<script>
+				function showrole(){
+					document.getElementById('abc').style='';
+				}
+				document.forms['regfaculty']['user_id'].onchange=showrole()
+			</script>";
+	}
+}
+else{
+	echo "<script>window.top.location='index.php'</script>";
+}
 ?>
-
-<script src="php/content/content2/validation.js?v=1.0"></script>
+<script>
+</script>
+<script src="php/content/content2/validation.js?v=2.0"></script>
        
 <div id="main-wrapper">
 
@@ -522,6 +536,15 @@ iframe {
             <input class="input100" type="text" name="user_id">
             <span class="focus-input100" data-placeholder="STAFF ID*"></span>
           </div>
+		  <div class=" validate-input" id="abc"style="display:none">
+        <span class="input input--hoshi"style="color: white" >
+          <label class="" for="check">
+            <span class="" style="color: red "; >ROLE</span><br>
+          </label><br>
+          <input type="radio" name="role" value="1"> ADMIN<br>
+          <input type="radio" name="role" value="4"> DEPARTMENT<br>
+          <input type="radio" name="role" value="3"> FACULTY<br>
+    </div>
 
           <div class="container-login100-form-btn">
           <div class="cta">
