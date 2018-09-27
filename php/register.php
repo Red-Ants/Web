@@ -40,6 +40,11 @@ if(isset($_POST['loader'])){
 
 
     $dbobj->connect();
+	
+	//echo $pwd;
+	//echo md5($pwd);
+	
+	//die();
 
 
 

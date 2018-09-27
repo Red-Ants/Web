@@ -24,7 +24,7 @@ else{
 ?>
 <script>
 </script>
-<script src="php/content/content2/validation.js?v=2.0"></script>
+<script src="php/content/content2/validation.js?v=3.0"></script>
        
 <div id="main-wrapper">
 

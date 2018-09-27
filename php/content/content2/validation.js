@@ -21,26 +21,21 @@ function check(){
         alert("ENTER THE FACULTY USERNAME")
         user_id.focus()
         return false
-    }
+    }	
 	var role = document.forms['regfaculty']['role']
 	var pak = document.getElementById('abc')
-	if(pak.style!="display:none"){
-		if(role.value==""){
-			alert("PLEASE SELECT FACULTY ROLE")
-			return false
-		}
+	if(role.value==""){
 		vals = {
-        "user_id":document.forms['regfaculty']['user_id'].value,
-		"role":document.forms['regfaculty']['role'].value
+			"user_id":document.forms['regfaculty']['user_id'].value,
+			"role":3
 		};
-	}
-	else{
+	}else{
 		vals = {
-        "user_id":document.forms['regfaculty']['user_id'].value,
-		"role":3
+        		"user_id":document.forms['regfaculty']['user_id'].value,
+			"role":document.forms['regfaculty']['role'].value
 		};
-	}
 
+	}
     regfaculty(vals)
 
     return false

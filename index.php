@@ -63,7 +63,6 @@ body {
   background-repeat: no-repeat;
   background-size: 750px 420px;
   background-position: left;
-  
  }
 </style>
 
@@ -104,63 +103,20 @@ $.ajax({
 
 
             }
-			function resetpwd(){
-$.ajax({
-      type:'POST',
-      url:'php/register.php',
-      data:"loader=works",
-	error:function(msg){
-		alert("BAD INTERNET CONNECTION --> RELOADING...");
-		reload();
-	},
-      success:function(msg){
-        $('#temp').html(msg);
-      }
-    });
-
-              $("#main-wrapper").load("php/content/resetpassword/resetpwd.php");
-
-
-            }
           
           </script>
   
         
        
 <div id="main-wrapper">
-<script>
-		var myIndex = 0;
-		setTimeout(function(){
-			carousel(1);
-		},2000);
-		var aimg = ['img/ralogo.png','img/slide1.jpg'];
-		var len = aimg.length;
-		function carousel(x) {
-		var i = parseInt(x) % (len);
-    
-		document.getElementById('homebody').src = aimg[i]//'background-image : url('+aimg[i]+');background-repeat: no-repeat;background-size: cover;';
-		x = i;
-		setTimeout(function(){
-			carousel(x+1)}, 10000); // Change image every 5 seconds
-		}
-
-    var wdth = screen.width
-    var hgt = screen.height
-</script>
 
           
   <div class="container-fluid">
         <div class="row">
-         <div class="image col-lg-6 order-1 order-lg-2" style="top: -70">
-         <img src="img/ralogo.png" id="homebody" alt="..." class="img-fluid">
+         <div class="image col-lg-6 order-1 order-lg-2" style="top: 100"><img src="img/ralogo.png" alt="..." class="img-fluid">
+<br><br><br><br><br>         </div>
 
-  </div>
-  <div class="image col-lg-1 order-1 order-lg-2" style="top: -70">
-
-  </div>
-
-
-            <div class="text col-lg-4 order-2 order-lg-2">
+            <div class="text col-lg-5 order-2 order-lg-2">
 
 <style type="text/css">
   
@@ -170,7 +126,10 @@ $.ajax({
 /*//////////////////////////////////////////////////////////////////
 [ FONT ]*/
 
-
+@font-face {
+  font-family: Poppins-Regular;
+  src: url('../fonts/poppins/Poppins-Regular.ttf'); 
+}
 
 @font-face {
   font-family: Poppins-Medium;
@@ -667,9 +626,6 @@ iframe {
             <input class="input100" type="password" name="password">
             <span class="focus-input100" data-placeholder="Password*"></span>
           </div>
-		 <!-- &nbsp; <a href ="#reset" onclick="resetpwd()"style="color:blue;text-alig:cen">
-           Forgot password ?
-         </a>-->
 
           <div class="container-login100-form-btn">
           <div class="cta">
@@ -691,8 +647,7 @@ iframe {
           </button>
           </div>
   </div>
-  <div>
-       
+        </div>
         <!-- Javascript files-->
         <!--===============================================================================================-->
   

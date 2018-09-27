@@ -1,0 +1,149 @@
+<html>
+
+<head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+        <script>
+
+                function getdetails(){
+
+                    var cat = document.forms["reports"]["cat"];
+        
+                    var val = ""
+        
+                    var label = ""
+        
+                    if(cat.value==1){
+                        val = document.forms["reports"]["years"].value
+                        label = "year"
+                    }else if(cat.value==2){
+                        val = document.forms["reports"]["department"].value
+                        label = "branch"
+                    }else{
+                        val = document.forms["reports"]["cate"].value
+                        label = "hobby_category"
+                    }
+
+                    dat = 'val='+val+'&label='+label
+
+                    if(cat.value==3){
+                        val = $("#cate option:selected").text()
+                        val = val.toUpperCase()
+                        dat += '&cate='+val
+                    }
+        
+                    $.ajax({
+                            type:'POST',
+                            url:'reports.php',
+                            data:dat,
+                            success:function(msg){
+                                $('#temp').html(msg);
+                            }
+        
+                        });
+                }
+        
+                </script>
+        
+
+</head>
+
+<body>
+    <div id="temp"></div>
+    <form name="reports">
+        <div>
+
+            <input type="radio" value="1" id="year" name="cat" onchange="selection(1)" checked>
+
+            <label for="year">Years</label>
+
+            <input type="radio" value="2" id="dept" name="cat" onchange="selection(2)">
+
+            <label for="dept">Department</label>
+
+            <input type="radio" value="3" id="club" name="cat" onchange="selection(3)">
+
+            <label for="club">Club</label>
+
+        </div>
+
+        <div>
+
+            <script>
+                function selection(x){
+                    document.getElementById('years').style="display:none"
+                    document.getElementById('department').style="display:none"
+                    document.getElementById('cate').style="display:none"
+
+                    if(x==1)
+                        document.getElementById('years').style=""
+                    if(x==2)
+                        document.getElementById('department').style=""
+                    if(x==3)
+                        document.getElementById('cate').style=""
+                }
+
+            </script>
+        
+        <select id="years" onfocusout="getdetails()">
+        
+            <option value="1">I B.Tech</option>
+            <option value"2">II B.Tech</option>
+            <option value="3">III B.Tech</option>
+            <option value="4">IV B.Tech</option>
+
+        </select>
+
+        <select id="department" style="display:none" onfocusout="getdetails()">
+            <option value="1">CIV</option>
+            <option value="2">EEE</option>
+            <option value"3">MECH</option>
+            <option value="4">ECE</option>
+            <option value="5">CSE</option>
+            <option value="6">IT</option>
+
+        </select>
+
+        <select id="cate" style="display:none" onfocusout="getdetails()">
+        
+            <option value="1">Techie</option>
+            <option value"2">Social</option>
+            <option value="3">Art</option>
+            <option value="4">Cultural</option>
+            <option value="5">Passion</option>
+
+        </select>
+        
+        
+        </div>
+
+        <div>
+            
+
+        </div>
+
+        <table id="table_transactions">
+                <tr>
+                  <th>Transaction Id</th>
+                  <th>Receipt Id</th>
+                  <th>Due Date</th>
+                  <th>Due Amount</th>
+                  <th>Penality Days</th>
+                  <th>Penality Amount</th>
+                  <th>Due Amount Paid</th>
+                  <th>Penality Amount Paid</th>
+                  <th>Transaction Date</th>
+                </tr>
+                <tfoot>
+                  <tr>
+                    <th id="total" colspan="3">Overall Details</th>
+                    <td  colspan="6" ></td>
+                  </tr>
+                 </tfoot>
+              </table>
+    
+    </form>
+
+</body>
+
+</html>

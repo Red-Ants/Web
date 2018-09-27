@@ -47,7 +47,7 @@
 
         echo "<script>
 
-       alert('USER ALREADY EXISTS');
+       alert('FACULTY ALREADY REGISTERED');
 
     </script>";
 

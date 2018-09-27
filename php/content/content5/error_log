@@ -1,0 +1,312 @@
+[28-Jun-2018 13:38:34 UTC] PHP Notice:  Undefined variable: res in /home/acc5d3330cdw/public_html/reports/reports.php on line 183
+[28-Jun-2018 13:38:42 UTC] PHP Notice:  Undefined variable: res in /home/acc5d3330cdw/public_html/reports/reports.php on line 183
+[28-Jun-2018 13:39:31 UTC] PHP Notice:  Undefined variable: res in /home/acc5d3330cdw/public_html/reports/reports.php on line 183
+[14-Jul-2018 11:26:31 UTC] PHP Warning:  include_once(php/db_operations.php): failed to open stream: No such file or directory in /home/acc5d3330cdw/public_html/php/content/content4/reports.php on line 3
+[14-Jul-2018 11:26:31 UTC] PHP Warning:  include_once(): Failed opening 'php/db_operations.php' for inclusion (include_path='.:/opt/alt/php71/usr/share/pear') in /home/acc5d3330cdw/public_html/php/content/content4/reports.php on line 3
+[14-Jul-2018 11:26:31 UTC] PHP Fatal error:  Uncaught Error: Class 'DBConnect' not found in /home/acc5d3330cdw/public_html/php/content/content4/reports.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/acc5d3330cdw/public_html/php/content/content4/reports.php on line 5
+[14-Jul-2018 11:27:09 UTC] PHP Warning:  include_once(php/db_operations.php): failed to open stream: No such file or directory in /home/acc5d3330cdw/public_html/php/content/content4/reports.php on line 3
+[14-Jul-2018 11:27:09 UTC] PHP Warning:  include_once(): Failed opening 'php/db_operations.php' for inclusion (include_path='.:/opt/alt/php71/usr/share/pear') in /home/acc5d3330cdw/public_html/php/content/content4/reports.php on line 3
+[14-Jul-2018 11:27:09 UTC] PHP Fatal error:  Uncaught Error: Class 'DBConnect' not found in /home/acc5d3330cdw/public_html/php/content/content4/reports.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/acc5d3330cdw/public_html/php/content/content4/reports.php on line 5
+[14-Jul-2018 11:27:44 UTC] PHP Warning:  include_once(php/db_operations.php): failed to open stream: No such file or directory in /home/acc5d3330cdw/public_html/php/content/content4/reports.php on line 3
+[14-Jul-2018 11:27:44 UTC] PHP Warning:  include_once(): Failed opening 'php/db_operations.php' for inclusion (include_path='.:/opt/alt/php71/usr/share/pear') in /home/acc5d3330cdw/public_html/php/content/content4/reports.php on line 3
+[14-Jul-2018 11:27:44 UTC] PHP Fatal error:  Uncaught Error: Class 'DBConnect' not found in /home/acc5d3330cdw/public_html/php/content/content4/reports.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/acc5d3330cdw/public_html/php/content/content4/reports.php on line 5
+[14-Jul-2018 11:27:51 UTC] PHP Warning:  include_once(php/db_operations.php): failed to open stream: No such file or directory in /home/acc5d3330cdw/public_html/php/content/content4/reports.php on line 3
+[14-Jul-2018 11:27:51 UTC] PHP Warning:  include_once(): Failed opening 'php/db_operations.php' for inclusion (include_path='.:/opt/alt/php71/usr/share/pear') in /home/acc5d3330cdw/public_html/php/content/content4/reports.php on line 3
+[14-Jul-2018 11:27:51 UTC] PHP Fatal error:  Uncaught Error: Class 'DBConnect' not found in /home/acc5d3330cdw/public_html/php/content/content4/reports.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/acc5d3330cdw/public_html/php/content/content4/reports.php on line 5
+[14-Jul-2018 11:32:00 UTC] PHP Warning:  include_once(php/db_operations.php): failed to open stream: No such file or directory in /home/acc5d3330cdw/public_html/php/content/content4/reports.php on line 3
+[14-Jul-2018 11:32:00 UTC] PHP Warning:  include_once(): Failed opening 'php/db_operations.php' for inclusion (include_path='.:/opt/alt/php71/usr/share/pear') in /home/acc5d3330cdw/public_html/php/content/content4/reports.php on line 3
+[14-Jul-2018 11:32:00 UTC] PHP Fatal error:  Uncaught Error: Class 'DBConnect' not found in /home/acc5d3330cdw/public_html/php/content/content4/reports.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/acc5d3330cdw/public_html/php/content/content4/reports.php on line 5
+[14-Jul-2018 11:33:02 UTC] PHP Warning:  include_once(php/db_operations.php): failed to open stream: No such file or directory in /home/acc5d3330cdw/public_html/php/content/content4/reports.php on line 3
+[14-Jul-2018 11:33:02 UTC] PHP Warning:  include_once(): Failed opening 'php/db_operations.php' for inclusion (include_path='.:/opt/alt/php71/usr/share/pear') in /home/acc5d3330cdw/public_html/php/content/content4/reports.php on line 3
+[14-Jul-2018 11:33:02 UTC] PHP Fatal error:  Uncaught Error: Class 'DBConnect' not found in /home/acc5d3330cdw/public_html/php/content/content4/reports.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/acc5d3330cdw/public_html/php/content/content4/reports.php on line 5
+[14-Jul-2018 11:33:12 UTC] PHP Warning:  include_once(php/db_operations.php): failed to open stream: No such file or directory in /home/acc5d3330cdw/public_html/php/content/content4/reports.php on line 3
+[14-Jul-2018 11:33:12 UTC] PHP Warning:  include_once(): Failed opening 'php/db_operations.php' for inclusion (include_path='.:/opt/alt/php71/usr/share/pear') in /home/acc5d3330cdw/public_html/php/content/content4/reports.php on line 3
+[14-Jul-2018 11:33:12 UTC] PHP Fatal error:  Uncaught Error: Class 'DBConnect' not found in /home/acc5d3330cdw/public_html/php/content/content4/reports.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/acc5d3330cdw/public_html/php/content/content4/reports.php on line 5
+[14-Jul-2018 11:33:18 UTC] PHP Warning:  include_once(php/db_operations.php): failed to open stream: No such file or directory in /home/acc5d3330cdw/public_html/php/content/content4/reports.php on line 3
+[14-Jul-2018 11:33:18 UTC] PHP Warning:  include_once(): Failed opening 'php/db_operations.php' for inclusion (include_path='.:/opt/alt/php71/usr/share/pear') in /home/acc5d3330cdw/public_html/php/content/content4/reports.php on line 3
+[14-Jul-2018 11:33:18 UTC] PHP Fatal error:  Uncaught Error: Class 'DBConnect' not found in /home/acc5d3330cdw/public_html/php/content/content4/reports.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/acc5d3330cdw/public_html/php/content/content4/reports.php on line 5
+[14-Jul-2018 11:33:26 UTC] PHP Warning:  include_once(php/db_operations.php): failed to open stream: No such file or directory in /home/acc5d3330cdw/public_html/php/content/content4/reports.php on line 3
+[14-Jul-2018 11:33:26 UTC] PHP Warning:  include_once(): Failed opening 'php/db_operations.php' for inclusion (include_path='.:/opt/alt/php71/usr/share/pear') in /home/acc5d3330cdw/public_html/php/content/content4/reports.php on line 3
+[14-Jul-2018 11:33:26 UTC] PHP Fatal error:  Uncaught Error: Class 'DBConnect' not found in /home/acc5d3330cdw/public_html/php/content/content4/reports.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/acc5d3330cdw/public_html/php/content/content4/reports.php on line 5
+[14-Jul-2018 11:33:46 UTC] PHP Warning:  include_once(php/db_operations.php): failed to open stream: No such file or directory in /home/acc5d3330cdw/public_html/php/content/content4/reports.php on line 3
+[14-Jul-2018 11:33:46 UTC] PHP Warning:  include_once(): Failed opening 'php/db_operations.php' for inclusion (include_path='.:/opt/alt/php71/usr/share/pear') in /home/acc5d3330cdw/public_html/php/content/content4/reports.php on line 3
+[14-Jul-2018 11:33:46 UTC] PHP Fatal error:  Uncaught Error: Class 'DBConnect' not found in /home/acc5d3330cdw/public_html/php/content/content4/reports.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/acc5d3330cdw/public_html/php/content/content4/reports.php on line 5
+[14-Jul-2018 11:35:34 UTC] PHP Warning:  include_once(php/db_operations.php): failed to open stream: No such file or directory in /home/acc5d3330cdw/public_html/php/content/content4/reports.php on line 3
+[14-Jul-2018 11:35:34 UTC] PHP Warning:  include_once(): Failed opening 'php/db_operations.php' for inclusion (include_path='.:/opt/alt/php71/usr/share/pear') in /home/acc5d3330cdw/public_html/php/content/content4/reports.php on line 3
+[14-Jul-2018 11:35:34 UTC] PHP Fatal error:  Uncaught Error: Class 'DBConnect' not found in /home/acc5d3330cdw/public_html/php/content/content4/reports.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/acc5d3330cdw/public_html/php/content/content4/reports.php on line 5
+[14-Jul-2018 11:35:42 UTC] PHP Warning:  include_once(php/db_operations.php): failed to open stream: No such file or directory in /home/acc5d3330cdw/public_html/php/content/content4/reports.php on line 3
+[14-Jul-2018 11:35:42 UTC] PHP Warning:  include_once(): Failed opening 'php/db_operations.php' for inclusion (include_path='.:/opt/alt/php71/usr/share/pear') in /home/acc5d3330cdw/public_html/php/content/content4/reports.php on line 3
+[14-Jul-2018 11:35:42 UTC] PHP Fatal error:  Uncaught Error: Class 'DBConnect' not found in /home/acc5d3330cdw/public_html/php/content/content4/reports.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/acc5d3330cdw/public_html/php/content/content4/reports.php on line 5
+[14-Jul-2018 11:35:54 UTC] PHP Warning:  include_once(php/db_operations.php): failed to open stream: No such file or directory in /home/acc5d3330cdw/public_html/php/content/content4/reports.php on line 3
+[14-Jul-2018 11:35:54 UTC] PHP Warning:  include_once(): Failed opening 'php/db_operations.php' for inclusion (include_path='.:/opt/alt/php71/usr/share/pear') in /home/acc5d3330cdw/public_html/php/content/content4/reports.php on line 3
+[14-Jul-2018 11:35:54 UTC] PHP Fatal error:  Uncaught Error: Class 'DBConnect' not found in /home/acc5d3330cdw/public_html/php/content/content4/reports.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/acc5d3330cdw/public_html/php/content/content4/reports.php on line 5
+[14-Jul-2018 11:37:13 UTC] PHP Warning:  include_once(php/db_operations.php): failed to open stream: No such file or directory in /home/acc5d3330cdw/public_html/php/content/content4/reports.php on line 3
+[14-Jul-2018 11:37:13 UTC] PHP Warning:  include_once(): Failed opening 'php/db_operations.php' for inclusion (include_path='.:/opt/alt/php71/usr/share/pear') in /home/acc5d3330cdw/public_html/php/content/content4/reports.php on line 3
+[14-Jul-2018 11:37:13 UTC] PHP Fatal error:  Uncaught Error: Class 'DBConnect' not found in /home/acc5d3330cdw/public_html/php/content/content4/reports.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/acc5d3330cdw/public_html/php/content/content4/reports.php on line 5
+[14-Jul-2018 11:37:17 UTC] PHP Warning:  include_once(php/db_operations.php): failed to open stream: No such file or directory in /home/acc5d3330cdw/public_html/php/content/content4/reports.php on line 3
+[14-Jul-2018 11:37:17 UTC] PHP Warning:  include_once(): Failed opening 'php/db_operations.php' for inclusion (include_path='.:/opt/alt/php71/usr/share/pear') in /home/acc5d3330cdw/public_html/php/content/content4/reports.php on line 3
+[14-Jul-2018 11:37:17 UTC] PHP Fatal error:  Uncaught Error: Class 'DBConnect' not found in /home/acc5d3330cdw/public_html/php/content/content4/reports.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/acc5d3330cdw/public_html/php/content/content4/reports.php on line 5
+[14-Jul-2018 11:38:14 UTC] PHP Warning:  include_once(php/db_operations.php): failed to open stream: No such file or directory in /home/acc5d3330cdw/public_html/php/content/content4/reports.php on line 3
+[14-Jul-2018 11:38:14 UTC] PHP Warning:  include_once(): Failed opening 'php/db_operations.php' for inclusion (include_path='.:/opt/alt/php71/usr/share/pear') in /home/acc5d3330cdw/public_html/php/content/content4/reports.php on line 3
+[14-Jul-2018 11:38:14 UTC] PHP Fatal error:  Uncaught Error: Class 'DBConnect' not found in /home/acc5d3330cdw/public_html/php/content/content4/reports.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/acc5d3330cdw/public_html/php/content/content4/reports.php on line 5
+[14-Jul-2018 11:38:22 UTC] PHP Warning:  include_once(php/db_operations.php): failed to open stream: No such file or directory in /home/acc5d3330cdw/public_html/php/content/content4/reports.php on line 3
+[14-Jul-2018 11:38:22 UTC] PHP Warning:  include_once(): Failed opening 'php/db_operations.php' for inclusion (include_path='.:/opt/alt/php71/usr/share/pear') in /home/acc5d3330cdw/public_html/php/content/content4/reports.php on line 3
+[14-Jul-2018 11:38:22 UTC] PHP Fatal error:  Uncaught Error: Class 'DBConnect' not found in /home/acc5d3330cdw/public_html/php/content/content4/reports.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/acc5d3330cdw/public_html/php/content/content4/reports.php on line 5
+[14-Jul-2018 11:42:25 UTC] PHP Warning:  include_once(php/db_operations.php): failed to open stream: No such file or directory in /home/acc5d3330cdw/public_html/php/content/content4/reports.php on line 3
+[14-Jul-2018 11:42:25 UTC] PHP Warning:  include_once(): Failed opening 'php/db_operations.php' for inclusion (include_path='.:/opt/alt/php71/usr/share/pear') in /home/acc5d3330cdw/public_html/php/content/content4/reports.php on line 3
+[14-Jul-2018 11:42:25 UTC] PHP Fatal error:  Uncaught Error: Class 'DBConnect' not found in /home/acc5d3330cdw/public_html/php/content/content4/reports.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/acc5d3330cdw/public_html/php/content/content4/reports.php on line 5
+[14-Jul-2018 11:45:10 UTC] PHP Warning:  include_once(php/db_operations.php): failed to open stream: No such file or directory in /home/acc5d3330cdw/public_html/php/content/content4/reports.php on line 3
+[14-Jul-2018 11:45:10 UTC] PHP Warning:  include_once(): Failed opening 'php/db_operations.php' for inclusion (include_path='.:/opt/alt/php71/usr/share/pear') in /home/acc5d3330cdw/public_html/php/content/content4/reports.php on line 3
+[14-Jul-2018 11:45:10 UTC] PHP Fatal error:  Uncaught Error: Class 'DBConnect' not found in /home/acc5d3330cdw/public_html/php/content/content4/reports.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/acc5d3330cdw/public_html/php/content/content4/reports.php on line 5
+[14-Jul-2018 11:46:33 UTC] PHP Warning:  include_once(php/db_operations.php): failed to open stream: No such file or directory in /home/acc5d3330cdw/public_html/php/content/content4/reports.php on line 3
+[14-Jul-2018 11:46:33 UTC] PHP Warning:  include_once(): Failed opening 'php/db_operations.php' for inclusion (include_path='.:/opt/alt/php71/usr/share/pear') in /home/acc5d3330cdw/public_html/php/content/content4/reports.php on line 3
+[14-Jul-2018 11:46:33 UTC] PHP Fatal error:  Uncaught Error: Class 'DBConnect' not found in /home/acc5d3330cdw/public_html/php/content/content4/reports.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/acc5d3330cdw/public_html/php/content/content4/reports.php on line 5
+[14-Jul-2018 11:47:38 UTC] PHP Warning:  include_once(php/db_operations.php): failed to open stream: No such file or directory in /home/acc5d3330cdw/public_html/php/content/content4/reports.php on line 3
+[14-Jul-2018 11:47:38 UTC] PHP Warning:  include_once(): Failed opening 'php/db_operations.php' for inclusion (include_path='.:/opt/alt/php71/usr/share/pear') in /home/acc5d3330cdw/public_html/php/content/content4/reports.php on line 3
+[14-Jul-2018 11:47:38 UTC] PHP Fatal error:  Uncaught Error: Class 'DBConnect' not found in /home/acc5d3330cdw/public_html/php/content/content4/reports.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/acc5d3330cdw/public_html/php/content/content4/reports.php on line 5
+[14-Jul-2018 11:47:41 UTC] PHP Warning:  include_once(php/db_operations.php): failed to open stream: No such file or directory in /home/acc5d3330cdw/public_html/php/content/content4/reports.php on line 3
+[14-Jul-2018 11:47:41 UTC] PHP Warning:  include_once(): Failed opening 'php/db_operations.php' for inclusion (include_path='.:/opt/alt/php71/usr/share/pear') in /home/acc5d3330cdw/public_html/php/content/content4/reports.php on line 3
+[14-Jul-2018 11:47:41 UTC] PHP Fatal error:  Uncaught Error: Class 'DBConnect' not found in /home/acc5d3330cdw/public_html/php/content/content4/reports.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/acc5d3330cdw/public_html/php/content/content4/reports.php on line 5
+[14-Jul-2018 11:47:57 UTC] PHP Warning:  include_once(php/db_operations.php): failed to open stream: No such file or directory in /home/acc5d3330cdw/public_html/php/content/content4/reports.php on line 3
+[14-Jul-2018 11:47:57 UTC] PHP Warning:  include_once(): Failed opening 'php/db_operations.php' for inclusion (include_path='.:/opt/alt/php71/usr/share/pear') in /home/acc5d3330cdw/public_html/php/content/content4/reports.php on line 3
+[14-Jul-2018 11:47:57 UTC] PHP Fatal error:  Uncaught Error: Class 'DBConnect' not found in /home/acc5d3330cdw/public_html/php/content/content4/reports.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/acc5d3330cdw/public_html/php/content/content4/reports.php on line 5
+[14-Jul-2018 11:47:58 UTC] PHP Warning:  include_once(php/db_operations.php): failed to open stream: No such file or directory in /home/acc5d3330cdw/public_html/php/content/content4/reports.php on line 3
+[14-Jul-2018 11:47:58 UTC] PHP Warning:  include_once(): Failed opening 'php/db_operations.php' for inclusion (include_path='.:/opt/alt/php71/usr/share/pear') in /home/acc5d3330cdw/public_html/php/content/content4/reports.php on line 3
+[14-Jul-2018 11:47:58 UTC] PHP Fatal error:  Uncaught Error: Class 'DBConnect' not found in /home/acc5d3330cdw/public_html/php/content/content4/reports.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/acc5d3330cdw/public_html/php/content/content4/reports.php on line 5
+[14-Jul-2018 11:47:58 UTC] PHP Warning:  include_once(php/db_operations.php): failed to open stream: No such file or directory in /home/acc5d3330cdw/public_html/php/content/content4/reports.php on line 3
+[14-Jul-2018 11:47:58 UTC] PHP Warning:  include_once(): Failed opening 'php/db_operations.php' for inclusion (include_path='.:/opt/alt/php71/usr/share/pear') in /home/acc5d3330cdw/public_html/php/content/content4/reports.php on line 3
+[14-Jul-2018 11:47:58 UTC] PHP Fatal error:  Uncaught Error: Class 'DBConnect' not found in /home/acc5d3330cdw/public_html/php/content/content4/reports.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/acc5d3330cdw/public_html/php/content/content4/reports.php on line 5
+[14-Jul-2018 11:47:59 UTC] PHP Warning:  include_once(php/db_operations.php): failed to open stream: No such file or directory in /home/acc5d3330cdw/public_html/php/content/content4/reports.php on line 3
+[14-Jul-2018 11:47:59 UTC] PHP Warning:  include_once(): Failed opening 'php/db_operations.php' for inclusion (include_path='.:/opt/alt/php71/usr/share/pear') in /home/acc5d3330cdw/public_html/php/content/content4/reports.php on line 3
+[14-Jul-2018 11:47:59 UTC] PHP Fatal error:  Uncaught Error: Class 'DBConnect' not found in /home/acc5d3330cdw/public_html/php/content/content4/reports.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/acc5d3330cdw/public_html/php/content/content4/reports.php on line 5
+[14-Jul-2018 11:47:59 UTC] PHP Warning:  include_once(php/db_operations.php): failed to open stream: No such file or directory in /home/acc5d3330cdw/public_html/php/content/content4/reports.php on line 3
+[14-Jul-2018 11:47:59 UTC] PHP Warning:  include_once(): Failed opening 'php/db_operations.php' for inclusion (include_path='.:/opt/alt/php71/usr/share/pear') in /home/acc5d3330cdw/public_html/php/content/content4/reports.php on line 3
+[14-Jul-2018 11:47:59 UTC] PHP Fatal error:  Uncaught Error: Class 'DBConnect' not found in /home/acc5d3330cdw/public_html/php/content/content4/reports.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/acc5d3330cdw/public_html/php/content/content4/reports.php on line 5
+[14-Jul-2018 11:48:00 UTC] PHP Warning:  include_once(php/db_operations.php): failed to open stream: No such file or directory in /home/acc5d3330cdw/public_html/php/content/content4/reports.php on line 3
+[14-Jul-2018 11:48:00 UTC] PHP Warning:  include_once(): Failed opening 'php/db_operations.php' for inclusion (include_path='.:/opt/alt/php71/usr/share/pear') in /home/acc5d3330cdw/public_html/php/content/content4/reports.php on line 3
+[14-Jul-2018 11:48:00 UTC] PHP Fatal error:  Uncaught Error: Class 'DBConnect' not found in /home/acc5d3330cdw/public_html/php/content/content4/reports.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/acc5d3330cdw/public_html/php/content/content4/reports.php on line 5
+[14-Jul-2018 11:48:01 UTC] PHP Warning:  include_once(php/db_operations.php): failed to open stream: No such file or directory in /home/acc5d3330cdw/public_html/php/content/content4/reports.php on line 3
+[14-Jul-2018 11:48:01 UTC] PHP Warning:  include_once(): Failed opening 'php/db_operations.php' for inclusion (include_path='.:/opt/alt/php71/usr/share/pear') in /home/acc5d3330cdw/public_html/php/content/content4/reports.php on line 3
+[14-Jul-2018 11:48:01 UTC] PHP Fatal error:  Uncaught Error: Class 'DBConnect' not found in /home/acc5d3330cdw/public_html/php/content/content4/reports.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/acc5d3330cdw/public_html/php/content/content4/reports.php on line 5
+[14-Jul-2018 11:48:01 UTC] PHP Warning:  include_once(php/db_operations.php): failed to open stream: No such file or directory in /home/acc5d3330cdw/public_html/php/content/content4/reports.php on line 3
+[14-Jul-2018 11:48:01 UTC] PHP Warning:  include_once(): Failed opening 'php/db_operations.php' for inclusion (include_path='.:/opt/alt/php71/usr/share/pear') in /home/acc5d3330cdw/public_html/php/content/content4/reports.php on line 3
+[14-Jul-2018 11:48:01 UTC] PHP Fatal error:  Uncaught Error: Class 'DBConnect' not found in /home/acc5d3330cdw/public_html/php/content/content4/reports.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/acc5d3330cdw/public_html/php/content/content4/reports.php on line 5
+[14-Jul-2018 11:48:02 UTC] PHP Warning:  include_once(php/db_operations.php): failed to open stream: No such file or directory in /home/acc5d3330cdw/public_html/php/content/content4/reports.php on line 3
+[14-Jul-2018 11:48:02 UTC] PHP Warning:  include_once(): Failed opening 'php/db_operations.php' for inclusion (include_path='.:/opt/alt/php71/usr/share/pear') in /home/acc5d3330cdw/public_html/php/content/content4/reports.php on line 3
+[14-Jul-2018 11:48:02 UTC] PHP Fatal error:  Uncaught Error: Class 'DBConnect' not found in /home/acc5d3330cdw/public_html/php/content/content4/reports.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/acc5d3330cdw/public_html/php/content/content4/reports.php on line 5
+[14-Jul-2018 11:48:02 UTC] PHP Warning:  include_once(php/db_operations.php): failed to open stream: No such file or directory in /home/acc5d3330cdw/public_html/php/content/content4/reports.php on line 3
+[14-Jul-2018 11:48:02 UTC] PHP Warning:  include_once(): Failed opening 'php/db_operations.php' for inclusion (include_path='.:/opt/alt/php71/usr/share/pear') in /home/acc5d3330cdw/public_html/php/content/content4/reports.php on line 3
+[14-Jul-2018 11:48:02 UTC] PHP Fatal error:  Uncaught Error: Class 'DBConnect' not found in /home/acc5d3330cdw/public_html/php/content/content4/reports.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/acc5d3330cdw/public_html/php/content/content4/reports.php on line 5
+[14-Jul-2018 11:48:02 UTC] PHP Warning:  include_once(php/db_operations.php): failed to open stream: No such file or directory in /home/acc5d3330cdw/public_html/php/content/content4/reports.php on line 3
+[14-Jul-2018 11:48:02 UTC] PHP Warning:  include_once(): Failed opening 'php/db_operations.php' for inclusion (include_path='.:/opt/alt/php71/usr/share/pear') in /home/acc5d3330cdw/public_html/php/content/content4/reports.php on line 3
+[14-Jul-2018 11:48:02 UTC] PHP Fatal error:  Uncaught Error: Class 'DBConnect' not found in /home/acc5d3330cdw/public_html/php/content/content4/reports.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/acc5d3330cdw/public_html/php/content/content4/reports.php on line 5
+[14-Jul-2018 11:48:02 UTC] PHP Warning:  include_once(php/db_operations.php): failed to open stream: No such file or directory in /home/acc5d3330cdw/public_html/php/content/content4/reports.php on line 3
+[14-Jul-2018 11:48:02 UTC] PHP Warning:  include_once(): Failed opening 'php/db_operations.php' for inclusion (include_path='.:/opt/alt/php71/usr/share/pear') in /home/acc5d3330cdw/public_html/php/content/content4/reports.php on line 3
+[14-Jul-2018 11:48:02 UTC] PHP Fatal error:  Uncaught Error: Class 'DBConnect' not found in /home/acc5d3330cdw/public_html/php/content/content4/reports.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/acc5d3330cdw/public_html/php/content/content4/reports.php on line 5
+[14-Jul-2018 11:48:03 UTC] PHP Warning:  include_once(php/db_operations.php): failed to open stream: No such file or directory in /home/acc5d3330cdw/public_html/php/content/content4/reports.php on line 3
+[14-Jul-2018 11:48:03 UTC] PHP Warning:  include_once(): Failed opening 'php/db_operations.php' for inclusion (include_path='.:/opt/alt/php71/usr/share/pear') in /home/acc5d3330cdw/public_html/php/content/content4/reports.php on line 3
+[14-Jul-2018 11:48:03 UTC] PHP Fatal error:  Uncaught Error: Class 'DBConnect' not found in /home/acc5d3330cdw/public_html/php/content/content4/reports.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/acc5d3330cdw/public_html/php/content/content4/reports.php on line 5
+[14-Jul-2018 11:49:21 UTC] PHP Warning:  include_once(php/db_operations.php): failed to open stream: No such file or directory in /home/acc5d3330cdw/public_html/php/content/content4/reports.php on line 3
+[14-Jul-2018 11:49:21 UTC] PHP Warning:  include_once(): Failed opening 'php/db_operations.php' for inclusion (include_path='.:/opt/alt/php71/usr/share/pear') in /home/acc5d3330cdw/public_html/php/content/content4/reports.php on line 3
+[14-Jul-2018 11:49:21 UTC] PHP Fatal error:  Uncaught Error: Class 'DBConnect' not found in /home/acc5d3330cdw/public_html/php/content/content4/reports.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/acc5d3330cdw/public_html/php/content/content4/reports.php on line 5
+[14-Jul-2018 11:50:35 UTC] PHP Warning:  include_once(php/db_operations.php): failed to open stream: No such file or directory in /home/acc5d3330cdw/public_html/php/content/content4/reports.php on line 3
+[14-Jul-2018 11:50:35 UTC] PHP Warning:  include_once(): Failed opening 'php/db_operations.php' for inclusion (include_path='.:/opt/alt/php71/usr/share/pear') in /home/acc5d3330cdw/public_html/php/content/content4/reports.php on line 3
+[14-Jul-2018 11:50:35 UTC] PHP Fatal error:  Uncaught Error: Class 'DBConnect' not found in /home/acc5d3330cdw/public_html/php/content/content4/reports.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/acc5d3330cdw/public_html/php/content/content4/reports.php on line 5
+[14-Jul-2018 11:50:36 UTC] PHP Warning:  include_once(php/db_operations.php): failed to open stream: No such file or directory in /home/acc5d3330cdw/public_html/php/content/content4/reports.php on line 3
+[14-Jul-2018 11:50:36 UTC] PHP Warning:  include_once(): Failed opening 'php/db_operations.php' for inclusion (include_path='.:/opt/alt/php71/usr/share/pear') in /home/acc5d3330cdw/public_html/php/content/content4/reports.php on line 3
+[14-Jul-2018 11:50:36 UTC] PHP Fatal error:  Uncaught Error: Class 'DBConnect' not found in /home/acc5d3330cdw/public_html/php/content/content4/reports.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/acc5d3330cdw/public_html/php/content/content4/reports.php on line 5
+[14-Jul-2018 11:50:43 UTC] PHP Warning:  include_once(php/db_operations.php): failed to open stream: No such file or directory in /home/acc5d3330cdw/public_html/php/content/content4/reports.php on line 3
+[14-Jul-2018 11:50:43 UTC] PHP Warning:  include_once(): Failed opening 'php/db_operations.php' for inclusion (include_path='.:/opt/alt/php71/usr/share/pear') in /home/acc5d3330cdw/public_html/php/content/content4/reports.php on line 3
+[14-Jul-2018 11:50:43 UTC] PHP Fatal error:  Uncaught Error: Class 'DBConnect' not found in /home/acc5d3330cdw/public_html/php/content/content4/reports.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/acc5d3330cdw/public_html/php/content/content4/reports.php on line 5
+[14-Jul-2018 11:50:44 UTC] PHP Warning:  include_once(php/db_operations.php): failed to open stream: No such file or directory in /home/acc5d3330cdw/public_html/php/content/content4/reports.php on line 3
+[14-Jul-2018 11:50:44 UTC] PHP Warning:  include_once(): Failed opening 'php/db_operations.php' for inclusion (include_path='.:/opt/alt/php71/usr/share/pear') in /home/acc5d3330cdw/public_html/php/content/content4/reports.php on line 3
+[14-Jul-2018 11:50:44 UTC] PHP Fatal error:  Uncaught Error: Class 'DBConnect' not found in /home/acc5d3330cdw/public_html/php/content/content4/reports.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/acc5d3330cdw/public_html/php/content/content4/reports.php on line 5
+[14-Jul-2018 11:50:44 UTC] PHP Warning:  include_once(php/db_operations.php): failed to open stream: No such file or directory in /home/acc5d3330cdw/public_html/php/content/content4/reports.php on line 3
+[14-Jul-2018 11:50:44 UTC] PHP Warning:  include_once(): Failed opening 'php/db_operations.php' for inclusion (include_path='.:/opt/alt/php71/usr/share/pear') in /home/acc5d3330cdw/public_html/php/content/content4/reports.php on line 3
+[14-Jul-2018 11:50:44 UTC] PHP Fatal error:  Uncaught Error: Class 'DBConnect' not found in /home/acc5d3330cdw/public_html/php/content/content4/reports.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/acc5d3330cdw/public_html/php/content/content4/reports.php on line 5
+[14-Jul-2018 13:29:08 UTC] PHP Notice:  Undefined index: val in /home/acc5d3330cdw/public_html/php/content/content4/reports.php on line 9
+[14-Jul-2018 13:29:08 UTC] PHP Notice:  Undefined index: label in /home/acc5d3330cdw/public_html/php/content/content4/reports.php on line 11
+[14-Jul-2018 13:29:08 UTC] PHP Notice:  Trying to get property of non-object in /home/acc5d3330cdw/public_html/php/db_operations.php on line 198
+[14-Jul-2018 13:29:08 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home/acc5d3330cdw/public_html/php/content/content4/reports.php:119
+Stack trace:
+#0 {main}
+  thrown in /home/acc5d3330cdw/public_html/php/content/content4/reports.php on line 119
+[16-Aug-2018 12:37:53 UTC] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home/acc5d3330cdw/public_html/php/content/content5/freports.php on line 8
+[16-Aug-2018 12:37:57 UTC] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home/acc5d3330cdw/public_html/php/content/content5/freports.php on line 8
+[16-Aug-2018 12:38:08 UTC] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home/acc5d3330cdw/public_html/php/content/content5/freports.php on line 8
+[16-Aug-2018 12:39:02 UTC] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home/acc5d3330cdw/public_html/php/content/content5/freports.php on line 8
+[16-Aug-2018 12:39:30 UTC] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home/acc5d3330cdw/public_html/php/content/content5/freports.php on line 8
+[16-Aug-2018 12:40:29 UTC] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home/acc5d3330cdw/public_html/php/content/content5/freports.php on line 8
+[16-Aug-2018 12:40:40 UTC] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home/acc5d3330cdw/public_html/php/content/content5/freports.php on line 8
+[16-Aug-2018 12:41:06 UTC] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home/acc5d3330cdw/public_html/php/content/content5/freports.php on line 8
+[16-Aug-2018 12:42:04 UTC] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home/acc5d3330cdw/public_html/php/content/content5/freports.php on line 8
+[16-Aug-2018 12:42:52 UTC] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home/acc5d3330cdw/public_html/php/content/content5/freports.php on line 8
+[16-Aug-2018 12:43:49 UTC] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home/acc5d3330cdw/public_html/php/content/content5/freports.php on line 8
+[16-Aug-2018 12:44:43 UTC] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home/acc5d3330cdw/public_html/php/content/content5/freports.php on line 10
+[16-Aug-2018 12:48:10 UTC] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home/acc5d3330cdw/public_html/php/content/content5/freports.php on line 10
+[16-Aug-2018 12:50:04 UTC] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home/acc5d3330cdw/public_html/php/content/content5/freports.php on line 8
+[16-Aug-2018 12:50:19 UTC] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home/acc5d3330cdw/public_html/php/content/content5/freports.php on line 8
+[16-Aug-2018 12:59:50 UTC] PHP Notice:  Undefined variable: result in /home/acc5d3330cdw/public_html/php/content/content5/freports.php on line 50
+[16-Aug-2018 12:59:50 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on null in /home/acc5d3330cdw/public_html/php/content/content5/freports.php:50
+Stack trace:
+#0 {main}
+  thrown in /home/acc5d3330cdw/public_html/php/content/content5/freports.php on line 50
+[16-Aug-2018 13:00:10 UTC] PHP Notice:  Undefined variable: result in /home/acc5d3330cdw/public_html/php/content/content5/freports.php on line 49
+[16-Aug-2018 13:00:10 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on null in /home/acc5d3330cdw/public_html/php/content/content5/freports.php:49
+Stack trace:
+#0 {main}
+  thrown in /home/acc5d3330cdw/public_html/php/content/content5/freports.php on line 49
+[16-Aug-2018 13:00:12 UTC] PHP Notice:  Undefined variable: result in /home/acc5d3330cdw/public_html/php/content/content5/freports.php on line 49
+[16-Aug-2018 13:00:12 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on null in /home/acc5d3330cdw/public_html/php/content/content5/freports.php:49
+Stack trace:
+#0 {main}
+  thrown in /home/acc5d3330cdw/public_html/php/content/content5/freports.php on line 49
+[16-Aug-2018 13:00:12 UTC] PHP Notice:  Undefined variable: result in /home/acc5d3330cdw/public_html/php/content/content5/freports.php on line 49
+[16-Aug-2018 13:00:12 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on null in /home/acc5d3330cdw/public_html/php/content/content5/freports.php:49
+Stack trace:
+#0 {main}
+  thrown in /home/acc5d3330cdw/public_html/php/content/content5/freports.php on line 49
+[16-Aug-2018 13:00:12 UTC] PHP Notice:  Undefined variable: result in /home/acc5d3330cdw/public_html/php/content/content5/freports.php on line 49
+[16-Aug-2018 13:00:12 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on null in /home/acc5d3330cdw/public_html/php/content/content5/freports.php:49
+Stack trace:
+#0 {main}
+  thrown in /home/acc5d3330cdw/public_html/php/content/content5/freports.php on line 49
+[16-Aug-2018 13:00:13 UTC] PHP Notice:  Undefined variable: result in /home/acc5d3330cdw/public_html/php/content/content5/freports.php on line 49
+[16-Aug-2018 13:00:13 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on null in /home/acc5d3330cdw/public_html/php/content/content5/freports.php:49
+Stack trace:
+#0 {main}
+  thrown in /home/acc5d3330cdw/public_html/php/content/content5/freports.php on line 49
+[16-Aug-2018 13:00:13 UTC] PHP Notice:  Undefined variable: result in /home/acc5d3330cdw/public_html/php/content/content5/freports.php on line 49
+[16-Aug-2018 13:00:13 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on null in /home/acc5d3330cdw/public_html/php/content/content5/freports.php:49
+Stack trace:
+#0 {main}
+  thrown in /home/acc5d3330cdw/public_html/php/content/content5/freports.php on line 49
+[18-Aug-2018 12:16:36 UTC] PHP Notice:  Undefined index: COUNT(user_id) in /home/acc5d3330cdw/public_html/php/content/content5/freports.php on line 100
+[17-Sep-2018 05:29:00 UTC] PHP Notice:  Undefined variable: user_id in /home/acc5d3330cdw/public_html/php/content/content5/freports.php on line 14
+[17-Sep-2018 05:29:00 UTC] PHP Notice:  Undefined offset: 1 in /home/acc5d3330cdw/public_html/php/content/content5/freports.php on line 39
+[17-Sep-2018 05:29:00 UTC] PHP Notice:  Undefined offset: 1 in /home/acc5d3330cdw/public_html/php/content/content5/freports.php on line 39
+[17-Sep-2018 05:29:48 UTC] PHP Notice:  Undefined offset: 1 in /home/acc5d3330cdw/public_html/php/content/content5/freports.php on line 93
+[17-Sep-2018 05:29:48 UTC] PHP Notice:  Undefined offset: 1 in /home/acc5d3330cdw/public_html/php/content/content5/freports.php on line 93
